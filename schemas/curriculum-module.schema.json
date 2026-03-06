@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Curriculum Module",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "integer",
+      "description": "The module's number within its tier."
+    },
+    "title": {
+      "type": "string",
+      "description": "A short, catchy phrase that summarizes the module."
+    },
+    "description": {
+      "type": "string",
+      "description": "A detailed description of the module's content and goals."
+    }
+  },
+  "required": ["number", "title", "description"]
+}

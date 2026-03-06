@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Curriculum Chapter",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "integer",
+      "description": "The chapter's number within its module."
+    },
+    "title": {
+      "type": "string",
+      "description": "A short, catchy phrase that summarizes the chapter."
+    },
+    "context": {
+      "type": "string",
+      "description": "A brief overview of the chapter's content and how it fits into the larger curriculum."
+    }
+  },
+  "required": ["number", "title", "context"]
+}

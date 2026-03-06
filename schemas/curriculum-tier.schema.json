@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Curriculum Tier",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "number",
+      "description": "The order of this tier within the curriculum."
+    },
+    "title": {
+      "type": "string",
+      "description": "The name of the curriculum tier."
+    },
+    "slug": {
+      "type": "string",
+      "description": "A URL-friendly identifier for the tier, typically derived from the title."
+    },
+    "tagline": {
+      "type": "string",
+      "description": "A short, catchy phrase that summarizes the tier."
+    },
+    "description": {
+      "type": "string",
+      "description": "A detailed description of the tier's content and goals."
+    },
+    "color": {
+      "type": "string",
+      "description": "A hex code representing the color associated with this tier."
+    },
+    "estimatedTime": {
+      "type": "object",
+      "description": "An estimate of how long it will take to complete this tier.",
+      "properties": {
+        "min": {
+          "type": "number",
+          "description": "The minimum estimated time in hours."
+        },
+        "max": {
+          "type": "number",
+          "description": "The maximum estimated time in hours."
+        },
+        "units": {
+          "type": "string",
+          "enum": ["seconds", "minutes", "hours", "days", "weeks", "months", "years"],
+          "description": "The units for the estimated time."
+        }
+      },
+      "required": ["min", "max", "units"]
+    },
+    "prerequisites": {
+      "type": "array",
+      "description": "A list of prerequisites for this tier.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "description": "A list of tags associated with this tier.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["beginner", "intermediate", "advanced", "expert"],
+      "description": "The difficulty level of this tier."
+    },
+    "certificate": {
+      "type": "boolean",
+      "description": "Indicates whether completing this tier grants a certificate."
+    }
+  },
+  "required": ["number", "title", "slug", "tagline", "description", "color", "estimatedTime", "prerequisites", "tags", "difficulty", "certificate"]
+}
