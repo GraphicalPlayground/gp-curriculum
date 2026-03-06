@@ -1,1 +1,14 @@
-{}
+{
+  "$schema": "../../schemas/curriculum-tier.schema.json",
+  "number": 4,
+  "title": "Engine Architecture & Expert Systems",
+  "slug": "engine-architecture",
+  "tagline": "For senior engineers, tech leads & researchers",
+  "description": "Prerequisite: Tier 3. For senior engineers, technical leads, and researchers. Deconstruct production engines (Anvil, DECIMA, ID Tech 7, Unreal Engine 5) and build equivalent systems from first principles inside the GP Engine.",
+  "color": "#5C1A1A",
+  "estimatedTime": { "min": 120, "max": 160, "units": "hours" },
+  "prerequisites": ["advanced-rendering"],
+  "tags": [],
+  "difficulty": "expert",
+  "certificate": true
+}

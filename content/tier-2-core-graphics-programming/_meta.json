@@ -1,1 +1,14 @@
-{}
+{
+  "$schema": "../../schemas/curriculum-tier.schema.json",
+  "number": 2,
+  "title": "Core Graphics Programming",
+  "slug": "core-graphics-programming",
+  "tagline": "For junior developers & hobbyists with Tier 1 or equivalent experience",
+  "description": "Prerequisite: Tier 1 or equivalent. Dive into the rasterization pipeline, HLSL/GLSL shader programming, GPU architecture, and physically grounded lighting models.",
+  "color": "#1A4D2E",
+  "estimatedTime": { "min": 80, "max": 110, "units": "hours" },
+  "prerequisites": ["foundations"],
+  "tags": [],
+  "difficulty": "intermediate",
+  "certificate": true
+}

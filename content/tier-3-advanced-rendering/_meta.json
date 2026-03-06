@@ -1,1 +1,14 @@
-{}
+{
+  "$schema": "../../schemas/curriculum-tier.schema.json",
+  "number": 3,
+  "title": "Advanced Rendering",
+  "slug": "advanced-rendering",
+  "tagline": "For mid-level engineers targeting graphics specialization",
+  "description": "Prerequisite: Tier 2 or equivalent professional experience. Covers physically based rendering, global illumination, ray/path tracing, temporal techniques, and cinematic post-processing as implemented in production.",
+  "color": "#4A1A5C",
+  "estimatedTime": { "min": 90, "max": 120, "units": "hours" },
+  "prerequisites": ["core-graphics-programming"],
+  "tags": [],
+  "difficulty": "advanced",
+  "certificate": true
+}

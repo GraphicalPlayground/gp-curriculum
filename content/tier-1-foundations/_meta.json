@@ -1,1 +1,14 @@
-{}
+{
+  "$schema": "../../schemas/curriculum-tier.schema.json",
+  "number": 1,
+  "title": "Foundations",
+  "slug": "foundations",
+  "tagline": "For absolute beginners, career changers & curious developers",
+  "description": "No prerequisites. Designed for students, career changers, and curious developers. Build the mathematical, programming, and conceptual bedrock that every graphics engineer must own.",
+  "color": "#1A3A5C",
+  "estimatedTime": { "min": 60, "max": 80, "units": "hours" },
+  "prerequisites": [],
+  "tags": [],
+  "difficulty": "beginner",
+  "certificate": true
+}
