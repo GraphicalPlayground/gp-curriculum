@@ -6,6 +6,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 // Use: import pdflib from 'pdf-lib';
 
+/** Common Types */
+type Difficulty = 'beginner' | 'intermediate' | 'advanced' | 'expert';
+type TimeUnits = 'seconds' | 'minutes' | 'hours' | 'days' | 'weeks' | 'months' | 'years';
+
 /**
  *
  */
@@ -45,7 +49,23 @@ interface Module {
 interface Tier {
   /** Private Section */
   _path: string;
-  _meta: string;
+  _meta: {
+    number: number;
+    title: string;
+    slug: string;
+    tagline: string;
+    description: string;
+    color: string;
+    estimatedTime: {
+      min: number;
+      max: number;
+      unit: TimeUnits;
+    };
+    prerequisites: string[];
+    tags: string[];
+    difficulty: Difficulty;
+    certificate: boolean;
+  };
 
   /** Children */
   modules: Module[];
