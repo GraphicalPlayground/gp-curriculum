@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 9,
+  "title": "Physically Based Rendering (PBR)",
+  "description": "This module establishes the physical and mathematical foundations of Physically Based Rendering — the rendering paradigm adopted universally across AAA games, VFX, and architectural visualization. It covers radiometric quantities, the rendering equation, microfacet theory, and the Disney \"Principled\" BRDF that ships in Unreal, DECIMA, Frostbite, and virtually every modern engine. The module also covers image-based lighting and HDR pipeline construction. Prerequisites: Modules 7 and 8. References: Burley (2012), Walter et al. (2007), and GDC talks from Lagarde (DICE), Karis (Epic), and de Rousiers (Ubisoft)."
+}

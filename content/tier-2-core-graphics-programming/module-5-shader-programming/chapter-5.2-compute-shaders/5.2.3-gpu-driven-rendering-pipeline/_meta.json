@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "GPU-Driven Rendering Pipeline",
+  "description": "Demonstrates how compute shaders can generate DrawIndirect argument buffers by performing frustum culling, LOD selection, and draw call batching entirely on the GPU — eliminating CPU readbacks and enabling millions of draw calls per frame. GPU-driven rendering is the architecture behind Nanite, and variants of this pattern are used in virtually every modern large-world engine. Students will implement a GPU culling compute shader that writes DrawIndirect arguments from a scene of 10,000 objects, measure the CPU time saved versus CPU-side culling, and explain why argument buffer generation requires a preceding depth pre-pass."
+}

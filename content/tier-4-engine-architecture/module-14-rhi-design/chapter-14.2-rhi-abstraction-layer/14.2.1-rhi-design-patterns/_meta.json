@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "RHI Design Patterns — Virtual Dispatch vs Templates",
+  "description": "Compares virtual-dispatch-based RHI design (UE5's RHI, bgfx) against template-based compile-time dispatch (Diligent Engine, the GP Engine) with analysis of the performance, compile-time, and maintainability trade-offs of each approach. The RHI design choice is one of the most consequential early architecture decisions; virtual dispatch adds ~2ns per call but enables runtime API selection, while compile-time dispatch produces zero-overhead abstractions at the cost of longer compile times. Students will implement both a virtual-dispatch and a template-based version of a texture creation API, benchmark call overhead, and argue for the appropriate choice given a hypothetical engine's requirements."
+}

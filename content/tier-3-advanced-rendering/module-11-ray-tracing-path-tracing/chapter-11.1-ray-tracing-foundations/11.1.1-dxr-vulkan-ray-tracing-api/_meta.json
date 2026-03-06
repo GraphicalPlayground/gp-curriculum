@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "DXR & Vulkan Ray Tracing API",
+  "description": "Covers the DXR and Vulkan ray tracing API architecture: TLAS/BLAS acceleration structure creation, shader binding table layout (ray generation, miss, hit groups), DispatchRays invocation, and the TraceRay/traceRayEXT intrinsic. The shader binding table is the most conceptually novel part of the ray tracing API and is the source of most beginners' first ray tracing bugs. Students will set up a minimal DXR pipeline, trace primary rays, and correctly configure a shader binding table with one hit group per material type."
+}

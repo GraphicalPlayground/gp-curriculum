@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Homogeneous Coordinates & Perspective Divide",
+  "description": "Explains the w component, the homogeneous perspective divide performed by the GPU between vertex and rasterization stages, and the meaning of clip space, NDC space, and screen space as separate coordinate systems. Misunderstanding the perspective divide is the root cause of incorrect manual perspective projection, broken shadow map projections, and artifacts in custom post-process effects. Students will trace a vertex from object space through to screen pixels step by step and implement a custom perspective projection matrix from scratch."
+}

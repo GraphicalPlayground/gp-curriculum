@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "SSAO — Screen Space Ambient Occlusion",
+  "description": "Implements the Crytek SSAO algorithm using hemisphere sample kernels oriented by reconstructed surface normals, covering kernel generation, depth comparison, blur radius tuning, and the halo artifacts caused by screen-space limitations. SSAO ships in virtually every deferred renderer and its artifacts (halos at depth discontinuities, no occlusion from off-screen geometry) motivate the more expensive techniques in this chapter. Students will implement SSAO with a configurable kernel size, integrate it into the GP Engine deferred pipeline as a screen-space pass, and identify and mitigate halo artifacts using depth-aware bilateral blur."
+}

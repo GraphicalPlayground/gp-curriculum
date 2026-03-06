@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 8,
+  "title": "GPU Architecture & the Memory Hierarchy",
+  "description": "This module provides a hardware-level understanding of how modern GPUs execute rendering workloads, from the shader processor architecture through the cache hierarchy to the memory subsystem. It draws from public architecture documents for AMD RDNA 3 and NVIDIA Ada Lovelace, and connects hardware behavior to observable performance differences in profiling tools. This knowledge is essential for the optimization content in Tier 4. Prerequisite: Module 5."
+}

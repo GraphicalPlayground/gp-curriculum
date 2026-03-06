@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Resource Management & Aliasing",
+  "description": "The render graph's resource management capability — particularly transient memory aliasing — is its most impactful practical benefit beyond correctness, reducing peak VRAM consumption by reusing memory between passes with non-overlapping lifetimes."
+}

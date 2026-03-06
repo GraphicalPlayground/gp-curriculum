@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Participating Media & Subsurface Scattering",
+  "description": "Covers the volume rendering equation for participating media (absorption, scattering, emission coefficients), the single-scattering approximation for wax-like materials, the Henyey-Greenstein phase function, and the pre-integrated skin SSS approach (Eric Penner's LUT method) used in all real-time skin renderers as a cheap approximation to the full diffusion profile integral. Participating media and SSS are responsible for the translucency of organic materials (skin, jade, wax, leaves); their correct implementation distinguishes high-end from mid-range character rendering. Students will implement the pre-integrated skin SSS LUT and sampling shader, validate it against a reference diffusion profile renderer, and tune the scattering radius for multiple skin types."
+}

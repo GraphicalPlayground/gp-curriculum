@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Deferred & Forward Rendering",
+  "description": "The choice between forward, deferred, and tiled/clustered rendering architectures is one of the most consequential decisions in engine design, with implications for MSAA support, transparency handling, memory bandwidth, and maximum dynamic light count. This chapter addresses all four paradigms with honest cost/benefit analysis."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Screen-Space Shadows (Contact Shadows)",
+  "description": "Covers screen-space contact shadows as a cheap ray-march technique that traces short rays in screen space against the depth buffer to recover high-frequency contact shadow detail that the shadow map's texel resolution cannot capture, applied in a layer on top of shadow maps for near-contact regions. Contact shadows significantly improve the appearance of objects sitting on surfaces and are a standard post-process in every major engine's shadow pipeline. Students will implement screen-space shadow ray marching using Hi-Z acceleration, integrate it as an additive mask over the shadow map result, and tune the maximum ray length to stay within the depth buffer validity region."
+}

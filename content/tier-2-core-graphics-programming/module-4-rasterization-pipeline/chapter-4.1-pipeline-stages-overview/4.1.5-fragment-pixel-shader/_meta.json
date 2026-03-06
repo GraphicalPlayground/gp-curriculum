@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 5,
+  "title": "Fragment/Pixel Shader Stage",
+  "description": "Covers the pixel/fragment shader execution model, input interpolants, built-in derivatives (ddx/ddy), Multiple Render Target (MRT) output, and early fragment tests that allow depth rejection before shader execution. The pixel shader is where all surface appearance computation happens and its proper use of derivatives is critical for correct mip level selection in texture sampling. Students will write a pixel shader that outputs to four render targets simultaneously (G-buffer layout), use ddx/ddy for LOD bias in procedural textures, and measure the execution cost using RenderDoc shader occupancy."
+}

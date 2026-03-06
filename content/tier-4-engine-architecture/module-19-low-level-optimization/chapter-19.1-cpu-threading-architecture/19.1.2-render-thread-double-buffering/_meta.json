@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Render Thread Optimization — Double Buffering & Command Chains",
+  "description": "Covers the double-buffered render state architecture used in UE5 (GameThread writes frame N state while RenderThread renders frame N-1), command chain pre-allocation to eliminate memory allocation during recording, and the draw call sorting strategies that minimize GPU state changes (pipeline changes, descriptor set binds) within a command buffer. Reducing CPU-GPU synchronization latency from 2 frames to 1 frame improves input responsiveness by 16ms — a perceptible improvement in high-refresh-rate contexts. Students will implement double-buffered frame state in the GP Engine, measure the reduction in CPU-GPU sync stalls, and implement draw call key-based sorting that reduces PSO state changes by at least 50%."
+}

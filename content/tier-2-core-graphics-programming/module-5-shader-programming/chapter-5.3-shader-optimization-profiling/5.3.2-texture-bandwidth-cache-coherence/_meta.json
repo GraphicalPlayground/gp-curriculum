@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Texture Bandwidth & Cache Coherence",
+  "description": "Covers GPU texture cache architecture, the impact of access pattern locality on L1/L2 cache hit rate, mip level selection bias, and the performance relationship between texture resolution, sampler state, and bandwidth cost. Texture bandwidth is the dominant bottleneck in many production lighting and shadow shaders; cache-coherent texture access patterns can improve performance 3-5x. Students will implement an access-pattern-aware screen-space AO shader, measure cache utilization improvement versus a random-access baseline, and explain how Morton code tiling of texture data improves 2D locality."
+}

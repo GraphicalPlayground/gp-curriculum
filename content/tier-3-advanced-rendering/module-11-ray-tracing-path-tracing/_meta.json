@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 11,
+  "title": "Ray Tracing & Path Tracing",
+  "description": "This module provides a comprehensive treatment of hardware-accelerated ray tracing and offline/real-time path tracing, from DXR API fundamentals through the state-of-the-art denoising algorithms that make 1-4 SPP renders visually acceptable. The curriculum covers both the academic theory (Monte Carlo integration, importance sampling, bidirectional path tracing) and the production implementation (Cyberpunk 2077 Overdrive mode, NVIDIA RTX pipelines). Prerequisite: Modules 9 and 10."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "Capstone Project — Path-Traced Deferred Hybrid Renderer",
+  "description": "This project is deliberately scoped to match the complexity of a real studio renderer feature project: it has a specification, deliverable phases, performance targets, and a code review process. Students who complete all seven phases will have a portfolio artifact indistinguishable in technical depth from professional work."
+}

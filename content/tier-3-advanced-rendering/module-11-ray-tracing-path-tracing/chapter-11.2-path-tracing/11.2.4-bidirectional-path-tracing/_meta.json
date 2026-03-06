@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Bidirectional Path Tracing (BDPT)",
+  "description": "Introduces Bidirectional Path Tracing as the extension that simultaneously traces sub-paths from the camera and from light sources and combines all sub-path connections using MIS, providing dramatically lower variance in difficult lighting scenarios such as caustics, indoor scenes lit through small windows, and glossy interreflections. BDPT is the algorithm underlying Blender Cycles' bidirectional mode and many offline production renderers. Students will implement two-vertex BDPT (camera path vertex connected to a single light path vertex), verify unbiasedness, and compare convergence to unidirectional PT on a Cornell box with a small aperture."
+}

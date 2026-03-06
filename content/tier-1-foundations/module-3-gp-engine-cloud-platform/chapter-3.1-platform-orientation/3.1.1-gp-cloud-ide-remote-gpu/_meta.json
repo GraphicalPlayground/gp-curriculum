@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "The GP Cloud IDE & Remote GPU Environment",
+  "description": "Explains how student C++ code is compiled on the GP build cluster, dispatched to a remote NVIDIA GPU, and the resulting framebuffer is compressed and streamed to the student's browser using a low-latency video codec. Understanding this pipeline prevents confusion about why certain debugging techniques (local breakpoints in graphics drivers) are not available and which alternatives GP provides. Students will configure their GP workspace, trigger a build-and-run cycle, inspect the stream metrics dashboard, and explain the data flow from their editor keystroke to the rendered pixel on screen."
+}

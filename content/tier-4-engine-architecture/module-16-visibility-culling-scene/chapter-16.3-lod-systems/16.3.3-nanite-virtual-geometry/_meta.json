@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Nanite — Virtual Geometry Deep Dive",
+  "description": "Provides a complete technical deconstruction of Nanite's virtual geometry system: the cluster DAG (Directed Acyclic Graph of meshlet clusters with hierarchical error bounds), the persistent cull and raster compute pass, the two-rasterizer architecture (hardware rasterizer for large triangles, software rasterizer for micropolygons), the visibility buffer output, and the deferred material evaluation pass. Nanite represents the current state of the art in geometric LOD and its cluster DAG architecture is the likely foundation of future geometry processing systems. Students will trace a single cluster through Nanite's cull-raster pipeline using UE5 visualization modes, implement a simplified cluster DAG with 2 LOD levels, and explain where Nanite's simplification heuristic would fail (non-manifold geometry, alpha-clipped foliage)."
+}

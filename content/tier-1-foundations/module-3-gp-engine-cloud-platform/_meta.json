@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 3,
+  "title": "Introduction to the GP Engine & Cloud Platform",
+  "description": "This module orients students to the Graphical Playground cloud platform and the GP Engine codebase that will serve as the implementation environment for the remainder of the curriculum. It explains the unique architectural decisions made in a pedagogical engine versus a commercial one, and gives students the confidence to navigate, modify, and ultimately replace every major system. By the end of this module students will have rendered their first triangle on a remote GPU and understood every line of code that produced it."
+}

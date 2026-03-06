@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Offline Lightmap Baking Pipeline",
+  "description": "Covers the end-to-end lightmap baking pipeline: UV chart generation (lightmap unwrap), ray tracing with Embree or OptiX, bounce accumulation using path tracing or radiosity, denoising with OIDN, and packing into final lightmap atlases. Production lightmap baking pipelines (Unreal's Lightmass, The Machinery's baking system) can take hours for large levels; understanding each stage enables optimization of the artist iteration cycle. Students will implement a single-bounce path-traced lightmap baker using Embree, apply OIDN denoising, and pack the results into a lightmap atlas that satisfies the 4-texel minimum padding requirement for seamless bilinear sampling."
+}

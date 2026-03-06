@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Ray-Traced Ambient Occlusion",
+  "description": "Implements hardware ray-traced ambient occlusion using DXR any-hit shaders with a configurable ray length and sample count, combined with an NRD-based temporal denoiser to achieve acceptable quality at 1 sample per pixel. RT AO provides geometrically correct occlusion from off-screen and dynamic geometry that screen-space methods cannot handle, at roughly 3-5x the cost of GTAO. Students will implement 1 SPP RT AO, integrate NRD denoising, compare visual quality and GPU cost against GTAO on a provided scene with significant off-screen occluders, and propose a hybrid system that falls back to GTAO on lower-tier hardware."
+}

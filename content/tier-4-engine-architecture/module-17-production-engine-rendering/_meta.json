@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 17,
+  "title": "Modern Production Engine Rendering Systems",
+  "description": "This module provides deep technical dives into the rendering systems of four production AAA engines: Unreal Engine 5, DECIMA (Guerrilla Games), ID Tech 7 (id Software), and Anvil (Ubisoft). Each section deconstructs a specific engine's most innovative rendering technique, drawing from published GDC talks, reverse-engineered frame captures, and source code (where available). This is the closest experience to working at a major studio that the GP platform can offer. Prerequisites: All Tier 3 modules and Modules 14-16."
+}

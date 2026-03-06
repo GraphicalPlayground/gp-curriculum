@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Warp Scheduling & Latency Hiding",
+  "description": "Explains how GPUs achieve high throughput despite memory access latency by maintaining pools of ready-to-execute warps/waves and context-switching between them in zero cycles — the principle of latency hiding through parallelism. Warp stalls from texture fetches, buffer reads, and inter-thread barriers are the primary cause of low GPU utilization and are visible as long wait stages in NSight's pipeline view. Students will identify warp stall bottlenecks in a particle shader using NSight, increase occupancy by reducing LDS usage, and measure the throughput improvement."
+}

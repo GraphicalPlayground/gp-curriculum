@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Real-Time Global Illumination",
+  "description": "This chapter surveys the full evolution of real-time GI from LPV to the state-of-the-art Lumen and ReSTIR algorithms, providing both implementation detail and the cost-quality reasoning needed to select between them. Students should understand that no single solution is universally optimal — engine GI systems typically combine multiple techniques."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "DirectX 12 — Descriptor Heaps, Root Signatures, PSOs",
+  "description": "Covers the DX12 resource binding model: the difference between CPU-visible and GPU-visible descriptor heaps, root signature design (root constants, root descriptors, descriptor tables), PSO compilation and the driver's role in final shader compilation, and the ExecuteIndirect path for GPU-driven rendering. DX12's resource binding model is more flexible than Vulkan's but equally error-prone; root signature mismatches are among the most common DX12 runtime errors. Students will design a root signature for a PBR deferred renderer, correctly populate GPU-visible descriptor heaps across multiple frames, and implement GPU-driven rendering with ExecuteIndirect."
+}

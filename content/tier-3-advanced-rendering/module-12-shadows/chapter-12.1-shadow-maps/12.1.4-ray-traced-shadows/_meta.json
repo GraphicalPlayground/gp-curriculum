@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Ray-Traced Shadows",
+  "description": "Implements directional, point, and spot light ray-traced shadows using DXR shadow rays with contact hardening based on light source size and distance — producing realistic penumbra width that grows with distance from the shadow caster, impossible to achieve with shadow maps. Ray-traced shadows are now standard in high-quality rendering paths in PC titles and are available as a quality tier above CSM in many engines. Students will implement area light shadow rays with configurable source radius, add temporal denoising using NRD shadow denoiser, and compare the visual quality and GPU cost versus a 4-cascade CSM with PCSS."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "CSM — Cascaded Shadow Maps",
+  "description": "Covers Cascaded Shadow Maps as the standard technique for directional (sun) shadow rendering in open worlds, including cascade split strategy (practical split vs. logarithmic), stabilization to prevent cascade shimmer when the camera moves, and cross-cascade blending to hide the transition boundary. CSM cascade blending is one of the most visible shadow quality differences between engines; DECIMA's smooth cascade blend in Horizon Zero Dawn is used as the reference implementation. Students will implement a 4-cascade CSM with stable cascade matrices, PCF within each cascade, and smooth blend between cascades using a fade region."
+}

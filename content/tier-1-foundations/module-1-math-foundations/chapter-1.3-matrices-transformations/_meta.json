@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 3,
+  "title": "Matrices & Transformations",
+  "description": "The Model-View-Projection pipeline is the spine of every rasterization renderer, and matrices are how it is implemented. This chapter addresses the row-major / column-major pitfall that trips up virtually every developer moving between different APIs and math libraries."
+}

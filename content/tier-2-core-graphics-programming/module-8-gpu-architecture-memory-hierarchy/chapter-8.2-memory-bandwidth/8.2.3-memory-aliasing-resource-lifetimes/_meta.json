@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Memory Aliasing & Resource Lifetimes",
+  "description": "Explains Vulkan memory aliasing and DX12 placed resource aliasing, where multiple GPU resources share physical memory provided their active lifetimes do not overlap — a technique the render graph uses to dramatically reduce peak VRAM consumption for transient render targets. Memory aliasing requires careful synchronization via aliasing barriers and is one of the most common sources of corruption bugs in frame graph implementations. Students will implement a simple aliasing pool for transient textures, verify functional correctness with RenderDoc, and measure peak VRAM reduction on a provided render graph configuration."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Pointers, References & Smart Pointers",
+  "description": "Covers raw pointers, references, and the three smart pointer types (unique_ptr, shared_ptr, weak_ptr) with emphasis on the RAII pattern for deterministic GPU resource cleanup and the ownership model used in the GP Engine for texture, buffer, and pipeline objects. GPU resource lifetime management is one of the most error-prone aspects of low-level API programming; RAII eliminates entire classes of use-after-free and double-free bugs. Students will wrap a Vulkan VkBuffer in a RAII handle, implement a reference-counted GPU texture, and identify ownership anti-patterns in provided code snippets."
+}

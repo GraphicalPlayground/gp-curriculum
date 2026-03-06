@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Data Structures & Algorithms for Rendering",
+  "description": "Graphics engineers do not use standard textbook algorithms in isolation — they use domain-specific variants optimized for cache performance, GPU upload, and parallel traversal. This chapter bridges the gap between CS fundamentals and the data structures that appear in production renderer codebases."
+}

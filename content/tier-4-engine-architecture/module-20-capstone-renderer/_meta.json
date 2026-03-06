@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 20,
+  "title": "Capstone: Build Your Own Renderer",
+  "description": "The capstone module is the culmination of the entire GP curriculum: a structured multi-phase project in which students design and build a complete hybrid path-traced deferred renderer using the GP Engine as a scaffold, drawing on every technique covered in Tiers 1-4. The project is professionally reviewed against industry standards for code quality, architecture, visual output, and performance documentation. Successful completion earns the GP Certified Graphics Engineer credential. Prerequisites: All previous modules."
+}

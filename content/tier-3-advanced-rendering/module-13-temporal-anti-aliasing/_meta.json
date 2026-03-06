@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 13,
+  "title": "Temporal Techniques & Anti-Aliasing",
+  "description": "This module covers the temporal domain of real-time rendering: how information from previous frames is accumulated, reprojected, and exploited to improve quality beyond what a single frame can achieve. Anti-aliasing, super resolution, and temporal reprojection systems are examined from algorithmic foundations through production-shipping implementations including DLSS 3, FSR 3, and Intel XeSS. Prerequisite: Modules 10 and 11. This is the most rapidly evolving area of real-time rendering — all algorithms are presented with their current-state-of-art (2024) understanding."
+}

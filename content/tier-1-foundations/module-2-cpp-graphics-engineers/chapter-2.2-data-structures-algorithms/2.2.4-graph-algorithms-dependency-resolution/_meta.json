@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Graph Algorithms for Dependency Resolution",
+  "description": "Applies directed acyclic graphs and topological sort to the render graph dependency resolution problem, where GPU passes must execute in an order that satisfies read-after-write dependencies without introducing unnecessary pipeline barriers. This is the algorithmic core of the Frostbite Frame Graph architecture studied in depth in Module 15. Students will implement Kahn's algorithm for topological sort, apply it to a set of render passes with declared resource dependencies, and generate the minimal barrier sequence required."
+}

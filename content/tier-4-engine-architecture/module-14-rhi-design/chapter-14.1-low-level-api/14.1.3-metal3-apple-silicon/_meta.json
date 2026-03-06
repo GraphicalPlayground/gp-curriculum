@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Metal 3 — Apple Silicon & Unified Memory",
+  "description": "Covers Metal's architecture on Apple Silicon: the unified memory model where CPU and GPU share the same physical memory, MTLHeap for explicit memory management, argument buffers for bindless-style resource access, mesh shaders on Apple GPUs, and the performance implications of Apple's tile-based deferred rendering architecture. The GP Engine supports Metal as a first-class backend; understanding its unified memory model enables zero-copy data sharing between CPU simulation and GPU rendering. Students will implement a Metal compute pass that reads CPU-written data without explicit uploads, configure an argument buffer for bindless texture access, and profile the benefit of tiled rendering for a G-buffer deferred pass."
+}

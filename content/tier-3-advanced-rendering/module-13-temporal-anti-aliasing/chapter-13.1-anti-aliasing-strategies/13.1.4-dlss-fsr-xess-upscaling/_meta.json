@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "DLSS 3 / FSR 3 / XeSS — Neural & Spatial Upscaling",
+  "description": "Explains the algorithmic foundations of DLSS 2 (trained neural network upscaling from quarter-resolution input), DLSS 3 Frame Generation (optical flow-based inter-frame synthesis), FSR 2/3 (spatial upscaling with RCAS sharpening and temporal accumulation), and XeSS (transformer-based neural upscaling) from a graphics engineer's perspective. Implementing upscaling integration is now a standard task for rendering engineers at any studio targeting PC or current-gen console. Students will integrate FSR 2 into the GP Engine, correctly configure motion vectors and reactive mask, measure the frame time reduction at 1440p, and explain the differences in output quality between Quality, Balanced, and Performance modes."
+}

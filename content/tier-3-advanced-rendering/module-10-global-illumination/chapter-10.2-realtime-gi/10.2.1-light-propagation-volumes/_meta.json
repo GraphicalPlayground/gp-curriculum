@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Light Propagation Volumes (LPV)",
+  "description": "Explains Crytek's Light Propagation Volumes as a 3D voxel grid that propagates radiance between adjacent cells using SH representation, providing low-frequency dynamic GI at modest GPU cost on hardware where modern alternatives are unavailable. LPV is still deployed on last-generation console targets and in mobile titles due to its low memory footprint and flexibility. Students will implement a single-cascade LPV, inject direct lighting from the shadow map, propagate for 4 iterations, and evaluate the resulting indirect illumination in the GP Engine shading pass."
+}

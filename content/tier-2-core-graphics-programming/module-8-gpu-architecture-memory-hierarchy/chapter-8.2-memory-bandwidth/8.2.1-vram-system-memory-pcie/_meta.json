@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "VRAM, System Memory & PCIe Transfer",
+  "description": "Covers GDDR6X and HBM2e VRAM characteristics, system RAM used as upload heap and readback heap in DX12/Vulkan, and the PCIe bandwidth budget for per-frame GPU data upload including vertex data, constant buffers, and streaming textures. PCIe bandwidth is a hard constraint that affects how much geometry and texture data can be streamed per frame and is a key variable in open-world streaming system design. Students will measure PCIe utilization during a frame using NSight, identify the largest contributors to upload bandwidth, and propose a compression or caching strategy to reduce transfers."
+}

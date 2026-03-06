@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Temporal Accumulation & Reprojection",
+  "description": "Covers temporal accumulation as the zero-cost denoising baseline: reprojecting previous-frame samples using motion vectors and blending with current-frame samples using an exponential moving average, along with the disocclusion detection and history invalidation strategies that prevent ghosting. Temporal accumulation provides unlimited \"free\" convergence for static scenes and is the foundation on which all temporal denoisers are built. Students will implement temporal accumulation with motion vector reprojection, handle disocclusion using depth difference rejection, and measure the effective sample count increase per frame for a static camera."
+}

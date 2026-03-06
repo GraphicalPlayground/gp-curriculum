@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "Shader Language Fundamentals",
+  "description": "This chapter establishes deep fluency in HLSL and the cross-compilation strategies used when targeting multiple APIs from a single shader codebase. The portability patterns here are used directly in the GP Engine's shader layer and in virtually every multi-platform AAA engine."
+}

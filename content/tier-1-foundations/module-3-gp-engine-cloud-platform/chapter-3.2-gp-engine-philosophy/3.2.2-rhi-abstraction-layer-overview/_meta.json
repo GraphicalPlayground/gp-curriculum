@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "The RHI Abstraction Layer — Overview",
+  "description": "Provides a high-level overview of the GP Engine's Render Hardware Interface layer, which presents a unified API over Vulkan, DirectX 12, and Metal and will be studied in depth in Module 14. The RHI is the translation layer between the engine's renderer and the underlying low-level API, insulating rendering code from platform-specific details. Students will draw the class hierarchy of the GP RHI, trace a texture creation call from the engine layer down to the Vulkan API call, and locate the platform-specific implementation files."
+}

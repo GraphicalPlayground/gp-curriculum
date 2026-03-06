@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Caches: L1/L2 Texture & Constant Caches",
+  "description": "Explains the texture cache hierarchy (per-SM L1 → GPU-wide L2 → VRAM) and its interaction with 2D texture tiling, constant buffer caching, and the different cache behavior of structured buffers versus textures. Maximizing cache hit rate through access pattern alignment is the most impactful bandwidth optimization technique available to shader authors. Students will profile L1 and L2 cache miss rates for a screen-space effect shader using NSight, restructure data access patterns to improve 2D locality, and measure bandwidth reduction."
+}

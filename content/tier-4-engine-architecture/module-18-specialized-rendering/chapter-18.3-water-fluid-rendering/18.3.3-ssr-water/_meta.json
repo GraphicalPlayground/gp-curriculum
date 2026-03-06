@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Screen-Space Reflections (SSR) for Water",
+  "description": "Implements Screen-Space Reflections as a hierarchical ray-march pass that traces reflected view rays through the depth buffer using Hi-Z acceleration, producing accurate reflections of scene geometry without ray tracing hardware, applied primarily to water surfaces where nearly horizontal reflections are most visible and most impactful on visual quality. SSR is the dominant real-time water reflection technique in engines without hardware RT; understanding its failure modes (missing off-screen geometry, incorrect reflections at view boundaries) motivates the hybrid SSR+RT approach in high-quality rendering paths. Students will implement Hi-Z-accelerated SSR, add temporal reprojection for stable moving-water reflections, and implement a blending scheme between SSR and the IBL cubemap for regions where the ray exits the screen."
+}

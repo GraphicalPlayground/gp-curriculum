@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Practical Compute: Bloom, Depth-of-Field, SSAO",
+  "description": "Implements three industry-standard post-processing effects as compute passes: physically correct dual-Kawase bloom, circle-of-confusion depth-of-field with scatter-as-gather, and screen-space ambient occlusion using hemisphere sampling. These implementations serve as full examples of the compute programming model applied to real effects that ship in every major game. Students will submit working implementations of all three effects, integrate them into the GP Engine post-process stack, and measure the GPU time of each pass using timestamp queries."
+}

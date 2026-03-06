@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "PCSS — Percentage-Closer Soft Shadows",
+  "description": "Explains Percentage-Closer Soft Shadows as the shadow map-based soft shadow technique that performs a blocker search to estimate penumbra width then applies variable-radius PCF, producing penumbra that grows with distance in the shadow map domain. PCSS provides physically motivated soft shadows without ray tracing hardware requirements and is widely deployed as the high-quality shadow option on hardware without DXR support. Students will implement PCSS with configurable light source size, measure the per-pixel cost as a function of kernel radius, and implement early exit optimizations that short-circuit the blocker search for fully lit or fully shadowed regions."
+}

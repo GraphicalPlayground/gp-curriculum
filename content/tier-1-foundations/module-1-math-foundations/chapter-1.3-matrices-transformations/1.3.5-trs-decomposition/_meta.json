@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 5,
+  "title": "TRS Decomposition",
+  "description": "Covers the decomposition of a composed 4x4 transformation matrix into its constituent Translation, Rotation (as a matrix or quaternion), and Scale components — the operation performed at the core of every animation system, scene graph, and editor gizmo. Decomposition is non-trivial in the presence of skew or non-uniform scale and requires careful ordering conventions. Students will implement TRS decomposition and recomposition and explain how Unreal Engine stores transform components separately in its FTransform struct to avoid precision loss."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Transient Resource Lifetimes & Memory Aliasing",
+  "description": "Explains how the render graph tracks the first write and last read of every virtual resource to determine its lifetime interval, then assigns physical memory regions by solving a bin-packing problem where non-overlapping lifetimes may share memory — reducing peak VRAM by aliasing G-buffer targets to post-process buffers after the deferred pass completes. Memory aliasing can reduce peak VRAM consumption by 30-50% on a complex pipeline without any change to rendering quality. Students will implement lifetime analysis and greedy bin-packing memory assignment, measure VRAM reduction on the GP Engine's deferred + post-process pipeline, and verify correctness by running 1000 aliased frames without corruption."
+}

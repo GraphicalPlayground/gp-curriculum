@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Cloth, Hair & Skin — Specialized BRDFs",
+  "description": "Covers the Kajiya-Kay and Marschner hair scattering models (R, TT, TRT specular lobes), the Ashikhmin-Premoze cloth BRDF and the modified sheen model used in Unreal's Substrate for velvet and satin, and the separable SSS approximation used for real-time skin rendering. Accurate cloth and hair shading is increasingly expected in AAA character rendering and each material type requires a different BRDF formulation. Students will implement a single-lobe Marschner hair model in HLSL, compare it to a measured hair BRDF reference, and identify the visual error budget for a real-time versus offline approximation."
+}

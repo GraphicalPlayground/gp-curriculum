@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Euler Angles & Gimbal Lock",
+  "description": "Demonstrates gimbal lock through the concrete example of a camera pitching to 90 degrees and losing its roll degree of freedom, explaining why this is a fundamental topological property of Euler angle representation rather than a fixable software bug. This lesson sets up the motivation for quaternions without requiring prior knowledge of the problem. Students will visualize gimbal lock interactively and explain why Euler angles remain useful in authoring tools despite their limitations."
+}

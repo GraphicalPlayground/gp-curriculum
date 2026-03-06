@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Understanding the GP Engine Philosophy",
+  "description": "The GP Engine is not Unreal Engine; it is a pedagogical instrument designed to be deconstructed and rewritten. This chapter establishes the mindset and methodology for treating an unfamiliar codebase as a learning resource rather than a black box, a skill that transfers directly to professional onboarding at any game studio."
+}

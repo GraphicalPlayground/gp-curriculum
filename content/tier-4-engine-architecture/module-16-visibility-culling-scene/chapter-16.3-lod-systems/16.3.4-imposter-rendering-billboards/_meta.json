@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Imposter Rendering & Billboard LOD",
+  "description": "Covers pre-rendered imposters (multi-angle rendered billboards stored in an atlas) and octahedral imposters (a continuous atlas representation covering all view directions with minimal atlas size) as the lowest-LOD representation for distant objects where even low-poly meshes exceed the geometry budget. Imposters are standard in vegetation rendering for distances beyond 500m where per-tree mesh rendering becomes untenable. Students will implement octahedral imposters for a tree asset, integrate them as the final LOD level in the LOD chain, and measure the geometry-to-imposter transition quality versus distance."
+}

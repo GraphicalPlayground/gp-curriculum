@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "SIMD & Vectorized CPU Code for Graphics",
+  "description": "Covers AVX2 intrinsics for vectorized matrix multiplication, frustum culling, and mesh processing, explaining the data layout requirements (SOA format, 256-bit alignment) that enable full SIMD lane utilization. CPU-side SIMD is critical for high-frequency operations like frustum culling 10,000+ objects per frame and the GP Engine's math library uses AVX2 throughout. Students will implement an AVX2-vectorized frustum cull that tests 8 AABBs per CPU instruction, measure the scalar vs. SIMD throughput improvement, and explain why SOA layout is mandatory for SIMD efficiency."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 3,
+  "title": "Baked Lighting & Lightmaps",
+  "description": "Despite the rise of real-time GI, baked lightmaps remain the highest-quality, zero-runtime-cost indirect lighting solution and continue to ship in every platform-constrained game. This chapter covers the complete offline pipeline and the runtime blend between baked and dynamic lighting."
+}

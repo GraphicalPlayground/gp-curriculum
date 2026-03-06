@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Phong & Blinn-Phong",
+  "description": "Covers the ambient-diffuse-specular decomposition, the Phong reflection model, and the Blinn-Phong approximation using the halfway vector, along with the specific reasons these models violate energy conservation and produce incorrect specular behavior at grazing angles. Phong and Blinn-Phong remain in use in mobile and legacy codebases; understanding their limitations prepares students for the motivation behind physically based shading in Module 9. Students will implement both models in HLSL, measure specular energy violation quantitatively, and modify Blinn-Phong to approximate energy conservation as a transitional exercise."
+}

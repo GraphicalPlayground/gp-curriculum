@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Hull, Tessellation Control & Domain Shaders",
+  "description": "Covers the three-stage tessellation pipeline: the Hull/Control shader that sets tessellation factors, the fixed-function Tessellator, and the Domain/Evaluation shader that computes new vertex positions on the subdivided surface. Adaptive tessellation driven by screen-space edge length is the technique used in terrain rendering pipelines across DECIMA, Frostbite, and the GP Engine. Students will implement a terrain patch tessellator with screen-space LOD, add displacement mapping in the domain shader, and measure the frame time overhead of tessellation versus pre-tessellated geometry."
+}

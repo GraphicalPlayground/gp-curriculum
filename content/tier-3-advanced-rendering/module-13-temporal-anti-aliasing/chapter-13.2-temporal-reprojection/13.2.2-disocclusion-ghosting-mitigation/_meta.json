@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Disocclusion Handling & Ghosting Mitigation",
+  "description": "Explains disocclusion (regions where previously occluded geometry becomes visible) as the primary challenge for temporal history reuse, covering neighborhood clamping, color history clipping, confidence maps, and velocity-weighted blend factors as the primary mitigation strategies. Ghosting from disocclusion is the most visible temporal artifact in any shipped TAA implementation; the quality of disocclusion handling is a primary differentiator between engine implementations. Students will implement neighborhood color bounding box clamping, test it on a provided fast-disocclusion test sequence, measure the ghosting residual, and implement velocity-weighted confidence as a secondary mitigation."
+}

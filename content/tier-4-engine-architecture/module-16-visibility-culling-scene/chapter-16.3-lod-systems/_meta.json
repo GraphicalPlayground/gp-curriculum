@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 3,
+  "title": "Level of Detail (LOD) Systems",
+  "description": "LOD systems balance visual quality against rendering cost by substituting lower-complexity representations for distant objects. This chapter covers the full spectrum from manual discrete LODs to the continuous virtual geometry of Nanite."
+}

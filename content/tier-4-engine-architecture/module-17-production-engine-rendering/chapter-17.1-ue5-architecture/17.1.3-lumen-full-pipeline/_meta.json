@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Lumen Global Illumination — Full Pipeline",
+  "description": "Provides the complete Lumen GI pipeline deconstruction: the surface cache update pass (signed-distance-field card capture with material evaluation), the radiance cache update (screen-space probe radiance from the surface cache), the screen-space probe gathering pass that produces per-pixel indirect light, and the hardware ray tracing high-quality reflections path. This lesson synthesizes Modules 10.2.3 and 11.1 into a complete system understanding. Students will use Lumen visualization modes to inspect each cache layer, identify the quality degradation pattern on fast-moving geometry, and propose where the Lumen pipeline makes the most aggressive quality trade-offs."
+}

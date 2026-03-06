@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "DDGI — Dynamic Diffuse Global Illumination",
+  "description": "Covers NVIDIA's Dynamic Diffuse GI (DDGI) probe system: uniformly or adaptively placed irradiance probes that ray trace their environment using DXR, encode results as irradiance and mean depth in a small atlas texture, and provide dynamic diffuse indirect light to any surface via trilinear probe blending. DDGI is the basis for UE5's Lumen diffuse component and is available as a standalone SDK for integration into custom engines. Students will implement DDGI with a uniform probe grid, integrate probe blending into the GP Engine deferred lighting pass, handle probe relighting on dynamic object movement, and measure the temporal stability of the result."
+}

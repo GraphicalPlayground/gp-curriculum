@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Barycentric Coordinates",
+  "description": "Introduces barycentric coordinates as the natural coordinate system of a triangle and the mechanism by which the rasterizer interpolates vertex attributes (UV coordinates, normals, colors) across pixels. Every interpolated value your fragment shader receives — texture coordinates, normals, tangents — arrives via barycentric interpolation performed in hardware. Students will compute barycentric weights for a point in a triangle, use them to interpolate UV coordinates, and understand how perspective-correct interpolation corrects the linear approximation for projected triangles."
+}

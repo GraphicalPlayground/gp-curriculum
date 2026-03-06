@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Voxel Cone Tracing (VXGI)",
+  "description": "Covers NVIDIA's Voxel Global Illumination approach where the scene is voxelized into a sparse octree, then cones are traced through the voxel hierarchy to gather both diffuse and specular indirect illumination in a single pass. VXGI produces specular GI that LPV and probe systems cannot deliver but requires significant VRAM for the voxel octree and expensive scene revoxelization for dynamic objects. Students will implement a simplified single-resolution VXGI diffuse pass, measure the VRAM cost of voxelization at varying resolutions, and compare visual quality against LPV on a provided test scene."
+}

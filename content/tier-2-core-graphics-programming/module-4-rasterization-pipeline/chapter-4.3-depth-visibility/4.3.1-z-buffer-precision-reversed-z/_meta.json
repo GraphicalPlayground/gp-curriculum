@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Z-Buffer Precision & Reversed-Z",
+  "description": "Explains the non-linear distribution of IEEE 754 floating-point precision in the standard [0,1] depth range, demonstrates how reversed-Z (mapping the near plane to 1 and far plane to 0 with an infinite projection matrix) restores near-uniform depth precision across the entire view frustum. Depth precision issues (z-fighting) are a constant problem in large-world rendering; reversed-Z is now the standard solution in virtually every modern engine including UE5, DOOM Eternal, and Horizon. Students will implement reversed-Z projection in the GP Engine, measure depth error at various distances, and compare z-fighting frequency before and after the change."
+}

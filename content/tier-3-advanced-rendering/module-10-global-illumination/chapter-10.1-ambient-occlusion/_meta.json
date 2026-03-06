@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "Ambient Occlusion",
+  "description": "Ambient occlusion is the most widely deployed GI approximation in real-time rendering, providing the micro-scale contact shadows and crevice darkening that make geometry read as three-dimensional. This chapter covers the progression from SSAO to hardware RT AO to establish the cost-quality trade-off spectrum."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Repository Structure & Module Layout",
+  "description": "Provides a guided tour of the GP Engine source tree, explaining the separation between the RHI layer, the render pipeline, the scene/ECS layer, the math library, and the asset pipeline, and why each boundary exists. Knowing the codebase structure is prerequisite for every lab assignment. Students will locate and describe the purpose of five key files in the GP Engine, draw a dependency diagram of the major subsystems, and submit their first trivial code modification through the GP version control interface."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Motivation: Managing Complexity in AAA Pipelines",
+  "description": "Presents the historical motivation for the frame graph: the challenge of managing hundreds of render passes with complex resource sharing in a team environment without introducing incorrect barriers, memory leaks, or resource state bugs. Wihlidal's GDC 2017 \"FrameGraph\":\"Extensible Rendering Architecture in Frostbite\" talk is dissected in detail. Students will audit a provided unstructured renderer with manual barriers for correctness, identify three barrier ordering bugs, and explain how a render graph would have prevented each one."
+}

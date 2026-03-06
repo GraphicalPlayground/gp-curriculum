@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Your First Triangle — End-to-End Walkthrough",
+  "description": "Traces the complete journey of a rendered triangle: vertex buffer creation, vertex shader compilation, pipeline state object setup, command recording, submission, and the framebuffer readback that delivers pixels to the stream. This lesson is deliberately exhaustive — every API call is annotated and explained — to give students a concrete mental model before later modules peel away the abstractions. Students will modify the triangle's vertex positions, change its color in the pixel shader, and explain what each API call contributes to the final frame."
+}

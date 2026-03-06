@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "ALU vs Memory Bound Analysis",
+  "description": "Explains the roofline model for GPU shaders and how to determine whether a shader is limited by arithmetic throughput, texture bandwidth, or buffer bandwidth using NSight, RGP (AMD), or PIX metrics. Knowing which bottleneck you are hitting before writing any optimization code prevents wasting time on irrelevant micro-optimizations. Students will profile three provided shaders using NSight, correctly classify each as ALU-bound or memory-bound, and implement the appropriate optimization for each case with measured improvement."
+}

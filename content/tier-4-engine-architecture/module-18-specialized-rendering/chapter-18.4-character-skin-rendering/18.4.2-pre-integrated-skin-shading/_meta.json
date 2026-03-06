@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Pre-Integrated Skin Shading",
+  "description": "Covers Eric Penner's pre-integrated skin shading LUT approach that replaces the Lambertian diffuse term for skin with a 2D LUT indexed by NoL and surface curvature, baking the diffusion profile integral into the texture to produce the characteristic red-scattering fringe visible at the terminator of illuminated skin surfaces. Pre-integrated skin is a cheaper alternative to screen-space SSS, preferred in mobile and console titles where bandwidth is constrained. Students will generate the skin shading LUT by numerical integration of the diffusion profile, implement the LUT lookup in a deferred skin shading pass, and compare the visual quality against screen-space SSS for both close-up portrait and mid-distance character renders."
+}

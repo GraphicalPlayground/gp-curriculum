@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Rays, Lines & Planes",
+  "description": "Defines rays and planes in parametric form and derives the ray-plane intersection formula used in ray casting, picking, and the interior of every ray tracing acceleration structure. Planes are also the fundamental primitive for frustum culling (a frustum is six planes) and stencil shadow volumes. Students will implement a mouse-picking ray cast, test a point against a frustum defined as six planes, and compute the reflection of a ray off a surface normal."
+}

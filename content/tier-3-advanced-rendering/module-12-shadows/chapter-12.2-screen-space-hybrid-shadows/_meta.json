@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Screen-Space & Hybrid Shadow Techniques",
+  "description": "Screen-space shadow techniques provide high-frequency contact detail that shadow maps cannot achieve at practical resolutions, and hybrid systems layer multiple shadow techniques to match quality to cost at each distance range. This chapter covers the production hybrid shadow architecture used in modern open-world engines."
+}

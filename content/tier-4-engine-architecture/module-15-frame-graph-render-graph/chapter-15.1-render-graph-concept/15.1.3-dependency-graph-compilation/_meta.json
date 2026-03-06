@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Dependency Graph Compilation & Culling",
+  "description": "Explains how the render graph compiler performs topological sort of declared pass dependencies to determine execution order, culls unreferenced passes (passes whose outputs are not consumed by any exported resource) using reverse reachability from final outputs, and assigns physical resources by solving the lifetime overlap problem. Dependency culling is a critical optimization that eliminates debug-only passes and unused rendering features with zero conditional code in pass implementations. Students will implement the compile phase including topological sort and reverse reachability culling, verify that a pass with no consumers is correctly culled, and measure the frame time reduction from culling five disabled debug passes."
+}

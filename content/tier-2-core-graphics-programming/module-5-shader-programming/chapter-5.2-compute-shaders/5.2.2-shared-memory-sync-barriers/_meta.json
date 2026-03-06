@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Shared Memory & Synchronization Barriers",
+  "description": "Covers Local Data Share (LDS/groupshared) as a programmer-managed scratchpad that allows threads in the same group to share intermediate results, along with the GroupMemoryBarrierWithGroupSync / barrier synchronization primitives required for safe access. LDS is the enabling technology for efficient separable blurs, image reduction operations, and the prefix-sum algorithms used in GPU-driven indirect buffer generation. Students will implement a separable Gaussian blur entirely in a single compute pass using LDS ping-pong, achieving bandwidth reduction versus a two-pass separable approach, and profile the LDS utilization in NSight."
+}

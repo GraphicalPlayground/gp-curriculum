@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Any-Hit & Closest-Hit Shaders",
+  "description": "Explains the different ray tracing shader types (ray generation, closest-hit, any-hit, miss) with special attention to any-hit shaders for alpha testing and closest-hit shaders for material evaluation at intersection points, including the payload data structure that carries information between shader stages. Any-hit shaders are performance-critical for transparent geometry in ray-traced shadows and ambient occlusion and require careful management to avoid excessive texture sampling on rejected hits. Students will implement alpha-tested leaf transparency using an any-hit shader, profile its impact on ray coherence, and implement a self-shadowing termination optimization."
+}

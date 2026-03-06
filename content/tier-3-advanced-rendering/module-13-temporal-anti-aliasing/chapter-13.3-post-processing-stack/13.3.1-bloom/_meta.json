@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Physically Correct Bloom",
+  "description": "Implements physically correct bloom as a convolution of the HDR framebuffer with a filter kernel approximating the camera lens scatter function: dual-Kawase multi-resolution pyramid for efficiency, energy-conserving kernel normalization, and optional FFT-based bloom for exact lens diffraction pattern simulation. Bloom is frequently over-applied in games; physically correct bloom uses a kernel normalized to preserve energy and is only visible on sources exceeding display nits. Students will implement dual-Kawase bloom with correct energy normalization, implement a lens dirt overlay, and compare the visual output of physically calibrated versus artistically exaggerated bloom settings."
+}

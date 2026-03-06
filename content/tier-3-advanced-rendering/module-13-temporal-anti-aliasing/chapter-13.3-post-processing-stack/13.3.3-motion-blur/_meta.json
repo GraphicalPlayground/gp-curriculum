@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Motion Blur — Per-Object & Camera",
+  "description": "Implements tile-based motion blur using maximum velocity per tile to bound the gather radius, reconstruction filter-based velocity stretching for camera motion blur, and per-object blur that uses per-instance motion vectors to correctly blur fast-moving dynamic objects independently from the static background. Motion blur is the post-process with the highest quality sensitivity to motion vector accuracy; the artifacts from incorrect per-object motion vectors are visually obvious. Students will implement both camera and per-object motion blur, implement neighborhood velocity search to handle foreground/background velocity conflicts, and compare the quality to a simple full-scene velocity blur."
+}

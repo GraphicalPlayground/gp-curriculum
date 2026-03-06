@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 19,
+  "title": "Low-Level Optimization & Performance Engineering",
+  "description": "This module teaches the discipline of rigorous performance engineering for rendering systems: CPU threading optimization, GPU profiling methodology, and the specific optimization techniques (SIMD, async compute, VRS) that separate a good renderer from a great one. Performance engineering is not the same as micro-optimization — it is a systematic methodology for identifying and eliminating bottlenecks at every level of the rendering stack. Prerequisites: All previous modules."
+}

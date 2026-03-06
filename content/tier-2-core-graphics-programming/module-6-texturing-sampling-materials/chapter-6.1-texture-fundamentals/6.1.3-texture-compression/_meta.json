@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Texture Compression: BC, ASTC, ETC",
+  "description": "Covers GPU block compression formats (BC1 through BC7, ASTC, ETC2) with their compression ratios, quality characteristics, and appropriate use cases: BC1 for color without alpha, BC3/BC5 for normal maps, BC6H for HDR, ASTC for mobile and console. Texture memory is a constant budget constraint in AAA titles; the choice of compression format can reduce VRAM footprint 4-8x without perceptible quality loss. Students will evaluate the visual quality and memory impact of five compression formats on a provided albedo/normal/roughness texture set and justify a compression scheme for a 10-material scene."
+}

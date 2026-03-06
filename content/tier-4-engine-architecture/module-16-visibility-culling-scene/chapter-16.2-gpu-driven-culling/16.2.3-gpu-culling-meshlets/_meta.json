@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "GPU Frustum & Occlusion Culling on Meshlets",
+  "description": "Extends GPU culling to the meshlet granularity used in Nanite: the amplification shader in a mesh shader pipeline performs per-meshlet frustum culling (cone culling for back-facing clusters, sphere test for frustum) and Hi-Z occlusion test before emitting meshlets for actual rasterization. Per-meshlet culling is orders of magnitude finer than per-object culling and eliminates over 95% of rasterization work in typical scenes when combined with backface cone culling. Students will implement meshlet cone culling in an amplification shader, add Hi-Z occlusion test, and measure the meshlet-to-primitive ratio improvement versus per-object culling on a test scene."
+}

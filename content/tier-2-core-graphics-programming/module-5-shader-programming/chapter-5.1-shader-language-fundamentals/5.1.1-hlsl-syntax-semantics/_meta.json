@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "HLSL Syntax & Semantics",
+  "description": "Covers HLSL types, swizzles, vector and matrix intrinsics, register semantics, cbuffer packing rules (the notorious vec3 padding trap), SamplerState, Texture2D, and structured buffers. Cbuffer packing rule violations are among the most common sources of silent bugs in shader development, causing incorrect lighting and broken visual effects. Students will audit a provided cbuffer layout for packing violations, fix them, implement a typed structured buffer for a particle system, and use the DXC compiler's reflection API to verify register bindings."
+}

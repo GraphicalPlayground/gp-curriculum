@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 6,
+  "title": "Output Merger — Depth, Stencil & Blending",
+  "description": "Explains depth testing (comparison functions, write mask), stencil testing (reference, compare, and operation), and alpha blending equations in the Output Merger stage — the final arbitration pass that decides which fragment values reach the framebuffer. Depth and stencil state configuration is a source of many hard-to-diagnose rendering artifacts including z-fighting, incorrect transparency order, and broken stencil masking effects. Students will implement a stencil-based portal effect, configure premultiplied alpha blending, and diagnose a z-fighting artifact by computing the minimum distinguishable depth delta."
+}

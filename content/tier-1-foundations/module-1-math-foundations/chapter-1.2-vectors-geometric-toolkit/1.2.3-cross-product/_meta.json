@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Cross Product — Area & Normals",
+  "description": "Introduces the cross product as the mechanism for computing surface normals, detecting winding order, and measuring triangle area — three operations performed billions of times per frame by the GPU rasterizer. The relationship between cross product magnitude and triangle area is central to understanding overdraw, barycentric weights, and LOD error metrics. Students will generate per-vertex normals from mesh geometry, detect degenerate triangles, and understand winding-order conventions in Vulkan and DX12."
+}

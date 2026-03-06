@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Anvil Water & Ocean Simulation",
+  "description": "Covers Anvil's ocean rendering system: the FFT Tessendorf wave synthesis using GPU compute, the spectral parameter set tuning for Mediterranean conditions in Odyssey, the shoreline foam simulation using gradient field advection, and the underwater rendering with volumetric caustic projection and participating media. Water is among the most visually complex rendering targets in open-world games and Anvil's ocean in AC Odyssey is frequently cited as a quality reference. Students will implement the FFT wave synthesis pass in compute shader, add shoreline interaction using depth-based foam, and implement planar reflection compositing for the water surface."
+}

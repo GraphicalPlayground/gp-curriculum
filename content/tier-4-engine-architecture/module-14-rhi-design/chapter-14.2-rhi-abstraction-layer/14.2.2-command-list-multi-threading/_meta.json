@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Command List Recording & Multi-Threading",
+  "description": "Covers parallel command list recording across multiple CPU threads with thread-local command allocators, submission batching to reduce API overhead, and the synchronization requirements for safe multi-threaded resource access during recording. Multi-threaded command recording is required for engines targeting CPU core counts above 4 and is the mechanism by which modern engines utilize all available CPU resources during complex scene rendering. Students will implement a work-stealing command recording system with per-thread command allocators, validate thread safety under TSAN, and measure CPU utilization improvement versus single-threaded recording on a complex scene."
+}

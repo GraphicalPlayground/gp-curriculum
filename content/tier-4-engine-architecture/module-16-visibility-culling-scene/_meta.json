@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 16,
+  "title": "Visibility, Culling & Scene Representation",
+  "description": "This module covers the complete visibility determination pipeline from CPU frustum culling through GPU-driven occlusion culling and the modern LOD architectures culminating in Nanite's virtual geometry. Every technique is analyzed for its performance profile across different scene types (open world, interior, dense urban, vegetation-heavy) and hardware generations. References include DECIMA's streaming occlusion system (Horizon), Nanite's cluster DAG (UE5), and ID Tech 7's GPU-driven indirect pipeline. Prerequisites: Modules 14 and 15."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Variable Rate Shading (VRS)",
+  "description": "Explains DX12 Variable Rate Shading (Tier 1: per-draw rate, Tier 2: per-tile rate from a screen-space image), the VRS rate image generation strategies (velocity-based, perceptual contrast-based, eye-tracking guided), and the visual quality trade-offs at different shading rates (1x1, 1x2, 2x2) for different content types (flat surfaces, high-frequency detail, in-motion regions). VRS can deliver 15-25% GPU time savings on shading-heavy passes with minimal perceptible quality loss when the rate image is correctly generated. Students will implement Tier 2 VRS with a velocity-based rate image, measure the shading rate distribution on a provided scene, validate visual quality using SSIM comparison, and report the achieved frame time saving."
+}

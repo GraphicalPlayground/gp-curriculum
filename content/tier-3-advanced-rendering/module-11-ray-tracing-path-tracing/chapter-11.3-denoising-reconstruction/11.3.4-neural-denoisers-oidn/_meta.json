@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Neural Denoisers — OIDN & Deep Learning Approaches",
+  "description": "Covers Intel Open Image Denoise as a production neural denoiser based on a convolutional neural network trained on path-traced image pairs, explaining the training data pipeline, the network architecture (U-Net variant), and the runtime inference deployment strategy using OpenVINO or CUDA. Neural denoisers are the state of the art for offline rendering quality and are increasingly deployed in real-time contexts via DLSS 3.5. Students will integrate OIDN into a path-traced offline render pipeline, measure denoiser quality versus SVGF on a challenging indirect lighting scene, and explain the input buffer requirements (albedo, normal AOV)."
+}

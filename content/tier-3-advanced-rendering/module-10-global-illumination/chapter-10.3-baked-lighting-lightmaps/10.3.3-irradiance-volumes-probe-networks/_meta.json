@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Irradiance Volumes & Probe Networks",
+  "description": "Explains probe-based irradiance volumes where a 3D grid of SH probes captures indirect light at offline bake time and provides runtime trilinear-interpolated indirect illumination to dynamic objects — the approach used in the Anvil Engine (Assassin's Creed Origins) and as the fallback GI in UE5 without Lumen. Probe blending must handle probe placement collisions (probes inside walls) using validity flags or probe relighting on dynamic object proximity. Students will implement a probe volume with trilinear interpolation, handle invalid probes with a weighted fallback, and integrate the result with the GP Engine's dynamic object lighting."
+}

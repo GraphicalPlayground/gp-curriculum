@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Two-Phase Occlusion Culling",
+  "description": "Implements the two-phase GPU occlusion culling pipeline: Phase 1 uses the previous frame's Hi-Z depth pyramid to reject objects occluded by their previous-frame depth, Phase 2 renders the surviving objects and updates the depth pyramid, then Phase 2 also re-evaluates Phase 1-rejected objects against the current frame's depth pyramid to recover any incorrectly rejected objects. Two-phase culling achieves near-perfect occlusion rejection with at most one frame of lag at the cost of an extra depth pyramid generation pass. Students will implement the full two-phase pipeline, measure false rejection rate versus single-phase Hi-Z culling, and profile the frame time savings on a city scene with 50,000 objects."
+}

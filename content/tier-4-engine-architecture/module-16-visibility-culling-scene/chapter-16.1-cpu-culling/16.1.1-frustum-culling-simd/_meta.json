@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Frustum Culling with SIMD",
+  "description": "Implements per-object frustum culling using SIMD-vectorized AABB-against-plane tests that process 8 objects per AVX2 instruction, covering SOA data layout for bounding volumes, vectorized plane extraction from the view-projection matrix, and the early-exit optimization for 100% inside vs. 100% outside cases. SIMD frustum culling is a standard technique in every production engine and can test 500,000+ objects per frame within a 0.1ms CPU budget. Students will implement AVX2-vectorized frustum cull matching the GP Engine's SIMD math library, measure throughput against scalar and SSE2 baselines, and integrate the result into the GP Engine scene traversal."
+}

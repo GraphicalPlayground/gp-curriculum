@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 6,
+  "title": "Texturing, Sampling & Materials",
+  "description": "This module covers everything a graphics engineer needs to know about texture data: how it is stored, compressed, sampled, streamed, and organized into a material system. It bridges the gap between the raw image data a GPU consumes and the rich, layered material appearance visible in finished games. References are drawn from Unreal Engine's material graph, DECIMA's material runtime, and the bindless texture systems used in ID Tech 7 and the GP Engine. Prerequisite: Module 5."
+}

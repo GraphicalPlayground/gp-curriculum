@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Digital Human Pipeline — Metahuman & Beyond",
+  "description": "Deconstructs the complete Metahuman character pipeline: photogrammetry-derived base mesh, groom-based strand hair (thousands of spline strands simulated and rendered per character), MLAA-resolved fine skin detail via displacement, wrap-deformer facial rig with corrective blendshapes, and the shader assembly that combines all skin, hair, eye, and clothing materials into a unified rendering pass. Metahuman represents the current state of the art in real-time digital human production and its architecture is increasingly adopted outside UE. Students will profile a Metahuman character in UE5, identify the top three render pass costs, propose optimizations for a console memory budget, and implement a simplified strand groom renderer in the GP Engine."
+}

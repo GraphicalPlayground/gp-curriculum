@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 4,
+  "title": "Character & Skin Rendering",
+  "description": "High-fidelity character rendering is the most perceptually scrutinized domain in games because players are uniquely sensitive to human appearance and motion. This chapter covers the four systems that distinguish AAA character rendering from mid-tier: subsurface scattering, eye rendering, strand hair, and digital human assembly."
+}

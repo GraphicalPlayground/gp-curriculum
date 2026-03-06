@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Texture Types: 2D, Cube, Array & 3D",
+  "description": "Covers the hardware texture types (2D, Cubemap, 2D Array, 3D), their binding semantics in HLSL/GLSL, and their appropriate use cases: cubemaps for environment maps, 2D arrays for lightmap atlases, 3D textures for volumetric fog and LUTs. Choosing the wrong texture dimensionality leads to either wasted memory or missing hardware filtering capabilities. Students will implement a cubemap skybox, a 3D LUT color grading pass, and a 2D texture array for a terrain multi-layer material, verifying correct sampling in each case."
+}

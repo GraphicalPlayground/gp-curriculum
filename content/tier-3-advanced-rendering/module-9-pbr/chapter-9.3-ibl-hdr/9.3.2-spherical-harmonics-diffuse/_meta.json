@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Spherical Harmonics for Diffuse Irradiance",
+  "description": "Explains L2 Spherical Harmonics as an optimal 9-coefficient representation of low-frequency diffuse irradiance that can be evaluated at per-pixel normal direction with 27 multiplies — used in DECIMA, Horizon: Zero Dawn, and virtually every deferred lighting engine. SH probes are the standard representation for baked and runtime-updated diffuse indirect lighting, appearing in both the baked lightmap pipeline and probe-based RTGI systems. Students will project an HDR cubemap into L2 SH coefficients, reconstruct diffuse irradiance from the coefficients in a pixel shader, and measure the error versus the ground-truth cubemap irradiance integral."
+}

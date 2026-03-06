@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 5,
+  "title": "Lens Effects: Chromatic Aberration, Vignette, Film Grain",
+  "description": "Implements lens chromatic aberration (channel-offset UV sample), vignette (radial exposure falloff approximating real lens darkening), and film grain (dynamic noise with per-channel intensity calibrated to match photographic grain statistics) as physically inspired effects that ground the rendered image in a camera-captured aesthetic. These effects are subtle in calibrated form but become noticeable artifacts when over-applied; the lesson emphasizes tasteful implementation ranges used by professional cinematic DPs. Students will implement all three effects, calibrate grain intensity to match a provided photographic reference, and produce a before/after comparison demonstrating the subtle versus over-applied settings."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Rasterization — Interpolation & Coverage",
+  "description": "Details how the rasterizer converts clip-space triangles into pixel fragments using sub-pixel precise coverage tests, perspective-correct barycentric interpolation, and multi-sample coverage masks. Sub-pixel rasterization and coverage rules determine the exact pixels a triangle touches, which is the basis for anti-aliasing, stencil effects, and line rendering. Students will explain the top-left fill rule and its significance for adjacent triangle seams, demonstrate the aliasing artifacts from integer-precision rasterization, and configure the rasterizer for wireframe rendering."
+}

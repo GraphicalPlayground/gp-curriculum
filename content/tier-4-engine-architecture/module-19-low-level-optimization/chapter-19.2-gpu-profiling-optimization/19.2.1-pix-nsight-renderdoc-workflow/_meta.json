@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "PIX, Nsight & RenderDoc — Full Analysis Workflow",
+  "description": "Provides a complete GPU profiling workflow using PIX on Xbox/DX12, NSight Graphics on NVIDIA GPUs, and RenderDoc as a universal frame debugger: capture and annotation, pipeline stall visualization, bottleneck identification (ALU vs memory vs ROP), shader occupancy reports, and the warp stall breakdown that reveals idle cycles. Tool proficiency is the single most career-differentiating skill for a GPU performance engineer; fluency with all three tools covers the full spectrum of shipping platforms. Students will conduct a complete profiling session on a provided unoptimized renderer, produce a written bottleneck analysis for each GPU pass, and implement the top three optimizations with measured improvements."
+}

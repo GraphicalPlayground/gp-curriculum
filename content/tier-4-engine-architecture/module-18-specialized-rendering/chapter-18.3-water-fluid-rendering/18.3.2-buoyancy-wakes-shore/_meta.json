@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Buoyancy, Wakes & Shore Interaction",
+  "description": "Covers the gameplay-coupled water rendering systems: CPU buoyancy using displacement texture readback for floating object simulation, wake generation using render-to-texture ripple propagation from moving objects, and shoreline foam simulation using wave interaction with the terrain heightmap. These systems require bidirectional data flow between the rendering and simulation systems, which has architectural implications for the render graph and command buffer recording. Students will implement FFT displacement readback for buoyancy, add GPU wake ripple simulation triggered by object velocity, and implement shoreline foam using depth differencing between the water surface and terrain."
+}

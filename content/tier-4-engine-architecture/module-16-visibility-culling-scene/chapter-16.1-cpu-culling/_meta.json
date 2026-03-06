@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "CPU-Side Culling",
+  "description": "CPU culling sets the upper bound on how many objects reach the GPU pipeline. Even in GPU-driven engines, a CPU-side broad phase remains important for reducing the GPU workload — this chapter covers the classical and modern approaches."
+}

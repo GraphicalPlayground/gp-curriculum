@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Motion Vector Generation",
+  "description": "Covers the generation of per-pixel motion vectors for static meshes (camera motion only, computed from reprojected depth), dynamic objects (camera + per-object world-space velocity), skinned meshes (per-vertex velocity from previous-frame bone transforms), and particles (simulation-derived or depth-derived). Motion vector correctness is the single most impactful variable in TAA and denoiser quality; incorrect vectors cause ghosting, blurring, and denoiser instability. Students will implement motion vectors for all three mesh types, verify correctness using RenderDoc's motion vector visualization, and diagnose a ghosting artifact caused by incorrectly transformed skinned mesh velocities."
+}

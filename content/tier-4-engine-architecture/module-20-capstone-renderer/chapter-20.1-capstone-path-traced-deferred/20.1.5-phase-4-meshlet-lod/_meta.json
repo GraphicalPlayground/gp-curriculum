@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 5,
+  "title": "Phase 4 — Nanite-Style Meshlet LOD Pipeline",
+  "description": "Implements GPU-driven meshlet rendering: mesh pre-processing into ~64-triangle meshlets with bounding cone and sphere, an amplification shader that performs per-meshlet frustum and backface cull, a mesh shader that processes and outputs meshlet triangles, and integration with the frame graph visibility buffer pass. The meshlet pipeline replaces the geometry pass draw calls for all opaque Nanite-eligible meshes. Students will deliver a meshlet renderer validated against the reference triangle renderer using pixel-perfect comparison, and profile the GPU time improvement on a high-density scene with 1 million+ triangles."
+}

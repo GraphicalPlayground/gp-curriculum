@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Project Architecture & Specification",
+  "description": "Students produce a design document for their capstone renderer: feature list (G-buffer deferred, PBR shading, Ray-traced GI, CSM shadows, TAA, bloom, DoF), target hardware specification, frame time budget allocation across all passes, and a per-phase delivery schedule. The design document is reviewed by a GP mentor before implementation begins to catch architectural issues early. Students will produce a complete renderer specification document including pass dependency diagram, memory budget analysis, and feature risk assessment, then present it in a live peer review session."
+}

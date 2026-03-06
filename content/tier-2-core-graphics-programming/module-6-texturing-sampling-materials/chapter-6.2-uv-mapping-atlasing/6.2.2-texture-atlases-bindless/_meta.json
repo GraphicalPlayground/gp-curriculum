@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Texture Atlases & Bindless Textures",
+  "description": "Explains texture atlas construction (packing multiple textures into a single resource to reduce API binding changes) and its modern replacement: bindless texture indexing via Vulkan descriptor indexing / DX12 heap-based descriptors that allow a shader to dynamically index any texture from a global array. Bindless textures are the standard approach in ID Tech 7 and the GP Engine, eliminating the draw call overhead of per-material texture binding entirely. Students will migrate a multi-material renderer from atlas-based to bindless texture access, measure the API call overhead reduction, and explain the descriptor heap layout required."
+}

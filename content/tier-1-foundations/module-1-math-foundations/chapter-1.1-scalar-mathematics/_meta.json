@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "Scalar Mathematics & Notation",
+  "description": "This chapter establishes the notational conventions and scalar math used throughout the entire curriculum. Students who underestimate this foundation often hit conceptual walls when gamma correction, depth precision, and angle handling appear in later modules."
+}

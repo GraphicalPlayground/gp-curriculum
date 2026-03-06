@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Stencil Buffer Techniques",
+  "description": "Covers the stencil buffer as a per-pixel integer mask that enables masking, portals, shadow volumes, decal clipping volumes, and outline rendering effects that cannot be achieved with depth alone. Stencil operations (keep, replace, increment, decrement, invert) and the interaction between stencil and depth testing determine the rendering behavior of many iconic effects. Students will implement a Doom-era stencil shadow volume, a portal rendering system using stencil recursion, and a deferred decal that uses the stencil buffer to clip its projection volume."
+}

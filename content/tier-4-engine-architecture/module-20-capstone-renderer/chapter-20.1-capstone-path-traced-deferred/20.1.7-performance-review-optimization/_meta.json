@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 7,
+  "title": "Performance Review & Optimization Pass",
+  "description": "Conducts a full GPU performance audit of the completed renderer using NSight: identify the three most expensive passes, implement targeted optimizations (async compute scheduling, SIMD-accelerated culling, Hi-Z occlusion for the RT passes), document the results, and produce a final performance report. The optimization pass simulates the final profiling sprint before a game ships — the discipline of measuring first and optimizing second in a time-constrained context. Students will deliver a performance report with before/after GPU timestamps for all optimized passes, a total frame time reduction of at least 15% from the pre-optimization baseline, and written justification for each optimization decision."
+}

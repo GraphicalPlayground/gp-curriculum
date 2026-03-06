@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Microfacet Theory & BRDF Models",
+  "description": "Microfacet theory models a surface as a distribution of tiny perfect mirrors (microfacets) oriented by a statistical normal distribution — the physical basis for the rough-smooth spectrum in every modern material. This chapter covers the industry-standard implementations with attention to the numerical edge cases that cause NaN in production shaders."
+}

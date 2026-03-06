@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Move Semantics & Perfect Forwarding",
+  "description": "Teaches move constructors, rvalue references, std::move, and perfect forwarding — the C++11 features that enable zero-copy transfer of large GPU objects and eliminate redundant reference count increments when building render graph nodes. Move semantics are essential for efficient command list recording, descriptor heap management, and pipeline state caching in DX12 and Vulkan. Students will add move constructors to GPU resource wrappers, measure the elimination of unnecessary copies with a profiler, and explain the interaction between move semantics and shared ownership."
+}

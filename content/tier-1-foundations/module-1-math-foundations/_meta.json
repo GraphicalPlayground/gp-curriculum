@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 1,
+  "title": "Mathematical Foundations for Graphics Engineering",
+  "description": "This module establishes the complete mathematical toolkit required to understand 3D graphics from first principles. It covers scalar algebra, vector geometry, matrix transformations, quaternion rotations, and analytic geometry — the five pillars that every rendering algorithm rests upon. Students are assumed to have high-school mathematics; no prior linear algebra is expected. All mathematical concepts are grounded in concrete graphics examples drawn from real engine code rather than abstract proofs."
+}

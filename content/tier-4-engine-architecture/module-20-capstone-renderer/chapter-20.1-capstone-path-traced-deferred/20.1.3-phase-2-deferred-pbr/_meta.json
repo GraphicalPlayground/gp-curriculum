@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Phase 2 — Deferred G-Buffer & PBR Shading",
+  "description": "Implements the geometry pass (G-buffer write with albedo, normal, roughness, metallic, depth), the PBR deferred lighting pass (GGX specular, Lambertian diffuse, Schlick Fresnel, point/spot/directional lights, IBL from a prefiltered cubemap), and a basic tone mapping pass for display. A correct PBR deferred renderer is the foundation on which all subsequent phases build; its correctness must be validated against reference renders before proceeding. Students will validate their PBR output against provided reference renders using SSIM, profile the G-buffer memory bandwidth, and document the shading model parameters in a technical description."
+}

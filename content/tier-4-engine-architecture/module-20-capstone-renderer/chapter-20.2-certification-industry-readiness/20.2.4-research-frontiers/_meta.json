@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "What's Next — Research Frontiers",
+  "description": "Surveys the active research frontiers in real-time and offline rendering: neural rendering (NeRF, Gaussian Splatting for real-time novel view synthesis), real-time path tracing pipelines targeting 60 FPS with ReSTIR and next-generation hardware, photon mapping and light field capture for indoor rendering, and large-scale neural material inference. These are the technologies that will define the next generation of game rendering and represent the areas where curriculum-completing students are positioned to contribute professionally. Students will select one research area, read two foundational papers, and present a 15-minute technical summary with implementation feasibility analysis to a peer cohort."
+}

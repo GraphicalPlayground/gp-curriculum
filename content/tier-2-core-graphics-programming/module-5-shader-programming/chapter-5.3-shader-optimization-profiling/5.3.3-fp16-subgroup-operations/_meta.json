@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Half-Precision (FP16) & Subgroup Operations",
+  "description": "Demonstrates the use of FP16 arithmetic in shader code for 2x ALU throughput on hardware that supports native FP16 execution (AMD RDNA, Nvidia Turing+, Apple Silicon), along with the precision trade-offs and the cases where FP32 must be preserved. FP16 is a first-class optimization on mobile GPUs and current-gen consoles where it can double effective shader throughput. Students will port a provided PBR pixel shader from FP32 to FP16 with precision-preserving compromises, benchmark the throughput improvement on an Ada Lovelace GPU, and document which intermediate values required FP32 for visual correctness."
+}

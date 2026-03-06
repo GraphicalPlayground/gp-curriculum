@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "GPU Profiling & Optimization",
+  "description": "GPU optimization without profiling is guesswork. This chapter provides the profiling methodology and the tool fluency required to systematically identify and eliminate GPU bottlenecks in production rendering pipelines."
+}

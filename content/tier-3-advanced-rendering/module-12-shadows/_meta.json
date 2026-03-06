@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 12,
+  "title": "Shadows",
+  "description": "This module provides a comprehensive treatment of real-time shadow rendering from classic shadow mapping through ray-traced contact-hardening shadows with temporal denoising. Shadow rendering is one of the most technically demanding and visually impactful areas of real-time graphics; the techniques here are drawn directly from shipping implementations in DECIMA's cascade blending, ID Tech 7's EVSM shadows, and the DXR shadow pipeline in Cyberpunk 2077. Prerequisite: Modules 7 and 9."
+}

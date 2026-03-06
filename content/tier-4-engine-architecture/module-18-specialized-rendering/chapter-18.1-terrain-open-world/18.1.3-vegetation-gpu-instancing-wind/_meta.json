@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Vegetation — GPU Instancing, Wind Simulation & Billboard LOD",
+  "description": "Covers GPU-instanced vegetation rendering with SpeedTree-style vertex animation using a wind vector field, per-instance color variation, LOD cross-fading using alpha dithering, and billboard LOD as the terminal level of the vegetation LOD chain for distant trees and shrubs. Vegetation is one of the most challenging rendering domains for performance because scenes can contain millions of simultaneous instances across multiple LOD levels. Students will implement GPU-instanced tree rendering with three LOD levels including billboard fallback, add vertex wind animation driven by a tiled wind texture, and implement per-instance random color variation for visual diversity."
+}

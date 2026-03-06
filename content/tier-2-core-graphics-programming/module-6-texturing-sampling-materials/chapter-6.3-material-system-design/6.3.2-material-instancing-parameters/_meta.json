@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Material Instancing & Parameter Overrides",
+  "description": "Explains how material instances share a parent shader and override only specific parameters via constant buffer values, enabling thousands of visual variations without creating new shader permutations or PSOs. Material instancing is the primary mechanism for reducing shader compilation time, PSO count, and state change overhead in large scenes with many material variants. Students will implement a material instance system with a typed parameter override stack, measure the PSO count reduction versus non-instanced materials, and explain when instancing breaks down (e.g., feature-flag overrides require re-permutation)."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 15,
+  "title": "Frame Graph & Render Graph Architecture",
+  "description": "This module covers the Frame Graph pattern introduced by Frostbite (Wihlidal, GDC 2017) and now adopted in various forms by virtually every AAA engine including UE5 (RDG), Filament, and the GP Engine. Students will understand the theoretical foundations of declarative render graph compilation and implement a complete render graph including resource aliasing and async compute scheduling. Prerequisite: Modules 14 and 2.2.4."
+}

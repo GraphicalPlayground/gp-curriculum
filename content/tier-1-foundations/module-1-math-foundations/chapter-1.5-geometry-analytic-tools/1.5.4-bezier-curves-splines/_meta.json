@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Bezier Curves & Splines",
+  "description": "Covers quadratic and cubic Bezier curves, de Casteljau evaluation, Catmull-Rom splines, and their use in camera paths, animation curves, LOD transition functions, and procedural mesh generation. Understanding spline math is prerequisite for implementing camera dolly systems, animation rigging curves, and the GPU-tessellated curved surface techniques in Module 4. Students will evaluate a cubic Bezier at an arbitrary parameter, fit a Catmull-Rom spline through a set of control points, and visualize the curve in the GP Engine viewport."
+}

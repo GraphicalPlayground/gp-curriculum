@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Building an RHI Abstraction Layer",
+  "description": "An RHI abstraction layer is the layer of code that every renderer in the engine calls instead of Vulkan or DX12 directly — its design determines the engine's portability, performance ceiling, and maintainability. This chapter examines multiple real-world RHI designs and guides students through implementing one."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 4,
+  "title": "Anvil Engine (Ubisoft — Assassin's Creed)",
+  "description": "The Anvil engine has powered the Assassin's Creed series since 2007 and represents Ubisoft's accumulated expertise in open-world rendering at extreme density — crowd rendering, vegetation at urban scale, and dynamic lighting across enormous environments."
+}

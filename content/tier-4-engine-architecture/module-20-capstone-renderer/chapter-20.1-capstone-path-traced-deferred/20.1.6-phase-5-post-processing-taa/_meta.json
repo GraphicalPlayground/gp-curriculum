@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 6,
+  "title": "Phase 5 — Post-Processing Stack & Temporal AA",
+  "description": "Implements the complete post-processing stack: TAA with Halton jitter and YCoCg clamping, dual-Kawase bloom with configurable threshold, scatter-as-gather DoF with configurable aperture, per-object motion blur using the motion vector buffer from the frame graph, and ACES tone mapping with HDR display output option. Each post-process pass is connected to the frame graph and contributes to the final display output. Students will deliver a visually complete frame with all post-processing active, provide a side-by-side comparison of each effect at three intensity settings, and validate no temporal artifacts under aggressive camera motion."
+}

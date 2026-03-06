@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 3,
+  "title": "Post-Processing Stack",
+  "description": "The post-processing stack is the final stage of the rendering pipeline where individual physical and stylistic effects are applied to the accumulated HDR framebuffer. This chapter covers the production implementations of the five core post-process effects present in virtually every AAA game."
+}

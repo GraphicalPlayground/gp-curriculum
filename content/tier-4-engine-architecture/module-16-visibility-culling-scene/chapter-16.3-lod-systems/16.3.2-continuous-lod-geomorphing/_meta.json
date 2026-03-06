@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Continuous LOD & Geomorphing",
+  "description": "Covers continuous LOD algorithms (ROAM, CDLOD) that adapt triangle count continuously rather than switching between discrete levels, and geomorphing techniques that smoothly interpolate vertex positions during LOD transitions to eliminate popping. CDLOD terrain is used in flight simulators and large-scale terrain renderers where the level-of-detail must be resolution-independent. Students will implement CDLOD terrain with per-quad tessellation factor computation, add geomorphing vertex shader interpolation for the transition zone, and measure the tessellation overhead versus a fixed-resolution terrain."
+}

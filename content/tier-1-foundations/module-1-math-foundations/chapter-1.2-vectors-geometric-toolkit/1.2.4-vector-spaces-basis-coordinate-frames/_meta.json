@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Vector Spaces, Basis & Coordinate Frames",
+  "description": "Defines what a coordinate frame is, how a basis transforms the meaning of a vector, and why the same direction expressed in world space versus tangent space refers to completely different physical orientations. Coordinate frame confusion — particularly between world, view, local, and tangent space — is the root cause of the majority of transformation bugs in beginner and intermediate engine code. Students will construct a local-to-world TBN matrix by hand and explain why normal maps encode vectors in tangent space rather than world space."
+}

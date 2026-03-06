@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "Texture Fundamentals",
+  "description": "This chapter establishes the hardware texture model — how the GPU samples, filters, and cache-accesses texture data. Virtual texturing is introduced here as a conceptual framework that will be implemented in depth in Module 17."
+}

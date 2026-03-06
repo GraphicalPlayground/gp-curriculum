@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Templates & Generic Programming",
+  "description": "Introduces function templates, class templates, template specialization, and the concept of compile-time dispatch — the mechanism behind type-safe math libraries (glm, DirectXMath), handle systems, and generic resource pools. Template metaprogramming appears throughout engine code in resource descriptors, typed command buffers, and graphics pipeline state objects. Students will implement a typed GPU resource handle, a generic ring buffer, and a compile-time enum-to-type mapping table."
+}

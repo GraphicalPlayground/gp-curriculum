@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Debugging with GDB, LLDB & RenderDoc",
+  "description": "Teaches CPU crash debugging with GDB and LLDB (breakpoints, watchpoints, stack unwinding, core dump analysis) alongside GPU-side debugging in RenderDoc (frame capture, draw call inspection, shader debugging, texture viewer). Being proficient with RenderDoc is a career-defining skill for graphics engineers; it transforms opaque GPU bugs into traceable data problems. Students will diagnose a provided crashing renderer using GDB, identify an incorrect shader output using RenderDoc's pixel history tool, and set a conditional breakpoint that fires only on a specific draw call."
+}

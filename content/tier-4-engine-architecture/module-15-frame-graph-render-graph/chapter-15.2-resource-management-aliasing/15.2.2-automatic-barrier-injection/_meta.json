@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Automatic Barrier Injection",
+  "description": "Covers how the render graph compiler injects the minimal necessary set of pipeline barriers between passes by tracking the read/write access declared for each resource and emitting transitions only when the current resource state differs from the required state. Automatic barrier injection is the correctness guarantee that eliminates manual state management bugs; the compiler guarantees every resource is in the correct state before each pass uses it. Students will implement barrier inference for a 10-pass pipeline, compare the injected barriers against a manually specified correct barrier set, and profile the overhead of the generated barriers versus a hand-tuned reference."
+}

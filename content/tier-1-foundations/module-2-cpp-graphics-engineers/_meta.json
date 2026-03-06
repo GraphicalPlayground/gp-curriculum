@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 2,
+  "title": "C++ for Graphics Engineers",
+  "description": "This module teaches modern C++ specifically through the lens of a working graphics programmer. It covers memory layout, pointer semantics, RAII resource management, template metaprogramming, and the data structures that appear in real-world rendering codebases. The goal is not a complete C++ language tutorial but a targeted deep-dive into the subset of C++ features that matter most when writing performance-critical GPU-facing code. Students should already have basic programming experience in any language; prior C++ knowledge is helpful but not required."
+}

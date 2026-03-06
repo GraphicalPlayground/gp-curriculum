@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "CPU & Threading Architecture",
+  "description": "CPU utilization is increasingly the limiting factor for rendering performance as GPU capabilities advance faster than CPU single-thread performance. This chapter covers the threading models used in Naughty Dog, DICE, and Ubisoft engines for maximum CPU-GPU overlap."
+}

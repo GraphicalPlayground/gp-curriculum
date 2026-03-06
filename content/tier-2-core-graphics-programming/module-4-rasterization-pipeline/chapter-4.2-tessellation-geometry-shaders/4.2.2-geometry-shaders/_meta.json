@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Geometry Shaders & Their Cost Model",
+  "description": "Explains geometry shader capabilities (primitive amplification, stream output, layered rendering) alongside the performance pitfalls that make them unsuitable for high-throughput rendering on modern GPUs. The fixed wavefront size and mandatory synchronization between geometry shader invocations cause severe throughput degradation that can make a 10x amplification shader 100x slower than expected. Students will implement a shadow map cubemap using layered geometry shader rendering, profile its cost, and identify the GPU bottleneck that motivates replacing it with the mesh shader approach."
+}

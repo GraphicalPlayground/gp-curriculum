@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Procedural Texturing & Noise Functions",
+  "description": "Introduces Perlin noise, Worley noise, FBM (Fractional Brownian Motion), and domain warping as the building blocks of GPU-generated procedural textures for terrain materials, weather effects, volumetric clouds, and fire simulations that avoid texture memory entirely. Procedural texturing is a memory-zero approach to infinite visual variety that scales from mobile to high-end PC. Students will implement a multi-octave FBM terrain material in HLSL, add domain warping for organic variation, and use the result to drive detail in the GP Engine's terrain material system."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "DECIMA Hair & Strand Rendering",
+  "description": "Covers DECIMA's Bezier strand hair system as implemented in Horizon Forbidden West: the strand simulation model, the GPU rendering of individual bezier strands as camera-facing quads with Kajiya-Kay shading, the shadow casting approach for strand hair (deep opacity maps), and the LOD system that transitions from full strand rendering to shell-based representation. Strand-based hair is now a required visual feature for AAA character rendering; Guerrilla's implementation is one of the most technically documented in the industry. Students will implement a simplified Bezier strand renderer with Kajiya-Kay specular in the GP Engine, configure deep opacity maps for hair self-shadowing, and measure the performance cost as strand count scales."
+}

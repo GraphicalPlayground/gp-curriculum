@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "NRD — NVIDIA Real-Time Denoisers",
+  "description": "Explains the architecture of NVIDIA Real-Time Denoisers (NRD), specifically ReLAX (for diffuse/specular indirect light) and ReBLUR (for ray-traced ambient occlusion), covering their signal encoding conventions, required GBuffer inputs, temporal accumulation parameters, and integration requirements. NRD is the production denoising library used in DLSS 3.5, RTXGI, and RTXAO and its integration into a custom engine is a common task for rendering engineers at studios using NVIDIA hardware. Students will integrate NRD ReLAX into the GP Engine ray-traced GI pass, tune the temporal stability parameters, and compare output quality against SVGF on the same noisy input."
+}

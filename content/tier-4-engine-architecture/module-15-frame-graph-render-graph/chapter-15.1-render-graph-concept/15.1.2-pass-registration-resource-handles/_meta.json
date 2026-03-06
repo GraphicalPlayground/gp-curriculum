@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Declarative Pass Registration & Resource Handles",
+  "description": "Covers the render graph's declarative API where each pass registers its resource reads and writes using virtual resource handles rather than concrete GPU resources, enabling the graph compiler to analyze dependencies and manage physical resource lifetimes automatically. Virtual resource handles decouple pass authoring from memory management; passes describe what they need without knowing what physical resource will be assigned. Students will implement a render graph pass registration API with typed virtual resource handles, register a five-pass deferred pipeline, and verify that the handle type system prevents read/write conflicts at compile time."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Mega-Texture & Virtual Texture Revisited",
+  "description": "Traces the evolution of id Software's virtual texturing approach from Mega-Texture in Quake Wars through the production virtual texture system in ID Tech 7, covering the page table system, GPU-driven page residency feedback, the streaming tile cache, and the indirection texture lookup that enables unlimited unique texture detail. Virtual texturing in DOOM Eternal powers the extreme per-surface texture variety that makes the game's environments visually dense. Students will implement a minimal virtual texture system with a 256x256 page table, implement GPU feedback using a min-mip render target, and stream 16 pages per frame using a background loading thread."
+}

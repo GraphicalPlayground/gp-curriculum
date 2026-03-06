@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Memory & Bandwidth",
+  "description": "Memory bandwidth is the most commonly saturated resource in a modern rendering workload. This chapter provides the hardware model needed to reason about bandwidth consumption and the software techniques that mitigate it."
+}

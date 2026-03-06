@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Volumetric Fog — Froxel Grid",
+  "description": "Implements the froxel (frustum-aligned voxel) volumetric fog system: the 160x90x64 froxel grid that maps to the camera frustum, light injection into froxels from all participating light types (directional, point, spot, sky), temporal reprojection of the froxel data to reduce noise, and the forward scattering integration that composites fog over the scene using the froxel in-scattering accumulation buffer. Froxel volumetric fog is the standard in-engine implementation that replaced depth-based fog in every major engine starting with Frostbite (2013). Students will implement the complete froxel pipeline with directional and point light injection, add temporal reprojection, and integrate it with the GP Engine's transparent pass for correct fog-over-transparencies."
+}

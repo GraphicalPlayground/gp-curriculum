@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "Classic Shading Models",
+  "description": "Understanding empirical shading models is prerequisite to understanding why PBR replaced them and what problems remain unsolved even in modern engines. This chapter does not dismiss these models — normal mapping and parallax techniques remain in production use today."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 3,
+  "title": "Image-Based Lighting & HDR",
+  "description": "Image-based lighting (IBL) provides the ambient and specular contribution from the environment to every PBR surface and is the most impactful source of visual realism in modern games. This chapter covers both the mathematical derivation and the production implementation."
+}

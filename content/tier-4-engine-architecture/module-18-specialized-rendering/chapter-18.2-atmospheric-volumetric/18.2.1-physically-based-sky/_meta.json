@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Physically Based Sky — Rayleigh & Mie Scattering",
+  "description": "Implements Bruneton and Neyret's precomputed atmospheric scattering model: the transmittance LUT (light attenuation through atmosphere), single-scattering LUT (Rayleigh and Mie scattering contributions), and the runtime evaluation that samples these LUTs to produce the correct sky color for any sun position and viewing direction. Physically based sky replaces the legacy skybox with a time-of-day-parameterized atmospheric simulation that produces correct sunrise and sunset color shifts. Students will implement the Bruneton atmosphere precomputation pipeline and runtime evaluation shader, verify the result matches measured sky spectral data, and integrate time-of-day parameter interpolation for seamless day-night cycles."
+}

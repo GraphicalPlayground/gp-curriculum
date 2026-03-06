@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 3,
+  "title": "Depth & Visibility",
+  "description": "Depth buffer management is one of the highest-impact performance topics in rasterization rendering, yet it is frequently misunderstood. This chapter directly addresses the reversed-Z misconception and the Hi-Z techniques that underpin GPU-driven culling in Modules 16 and 19."
+}

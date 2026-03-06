@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Visibility Buffer (V-Buffer / Deferred Texturing)",
+  "description": "Explains the visibility buffer approach where the rasterization pass writes only triangle ID and instance ID per pixel (the V-buffer), and all material evaluation is performed in a subsequent compute pass using software attribute interpolation — the paradigm pioneered by Burns and Hunt (2013) and commercialized in Nanite. The V-buffer decouples rasterization from shading, enabling Nanite's micropolygon rendering where triangles are smaller than pixels. Students will implement a minimal visibility buffer renderer, perform software barycentric interpolation for UV computation in the shading pass, and explain why this approach is essential for sub-pixel geometry."
+}

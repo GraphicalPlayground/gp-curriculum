@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "GPU-Driven Culling",
+  "description": "GPU-driven culling moves the scene visibility decision entirely onto the GPU, enabling culling at much finer granularity (per-meshlet, per-cluster) and eliminating the CPU readback that limits traditional occlusion queries to previous-frame data."
+}

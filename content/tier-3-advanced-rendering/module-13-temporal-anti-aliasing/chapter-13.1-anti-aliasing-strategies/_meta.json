@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "Anti-Aliasing Strategies",
+  "description": "Anti-aliasing strategy selection has become increasingly complex as TAA and neural supersampling have moved beyond simple edge smoothing into temporal reconstruction and frame generation. This chapter provides an honest comparison across the full spectrum of techniques."
+}

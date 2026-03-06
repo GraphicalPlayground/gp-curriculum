@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Anvil World Renderer & Density Technology",
+  "description": "Deconstructs Anvil's world renderer and its \"density technology\" as seen in Assassin's Creed Origins and Odyssey: the point scatter vegetation placement system that instances millions of vegetation assets using GPU-driven point cloud queries, the LOD system that transitions between full mesh, simplified mesh, and billboard representations, and the streaming tile system that loads mesh and texture LODs based on camera proximity. The extreme visual density of AC Origins' vegetation (grass, shrubs, trees on every surface) is architecturally only possible through fully GPU-driven placement and rendering. Students will implement a GPU vegetation scatter system using a point cloud input, add LOD instancing, and measure the vegetation draw cost at varying view distances."
+}

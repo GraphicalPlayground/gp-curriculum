@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Shader Permutations & Uber-Shader Strategy",
+  "description": "Presents the two dominant strategies for managing shader variants (explicit permutation enumerations vs. uber-shader with runtime branching) and their trade-offs in compilation time, PSO count, occupancy, and divergence overhead. AAA engines can ship with tens of thousands of shader permutations; managing them without combinatorial explosion requires disciplined permutation key design. Students will design a permutation key system for a material shader with 5 feature flags, implement a compile-time permutation generator, and measure the occupancy impact of dynamic branching versus separate permutations."
+}

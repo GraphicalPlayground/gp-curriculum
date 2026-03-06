@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Compute Shaders",
+  "description": "Compute shaders have replaced fixed-function hardware for an expanding set of rendering tasks and are now central to every modern rendering pipeline. This chapter addresses the GPU execution model in depth — thread groups, wavefronts, shared memory — to give students the mental model needed to write high-occupancy compute code."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Disney 'Principled' BRDF",
+  "description": "Dissects the full Burley (2012) Principled BRDF layer by layer: the base color, metallic, roughness, subsurface, specular, anisotropic, sheen, clearcoat, and transmission parameters and the shading model that computes them. The Principled BRDF is the most widely deployed material model in production, used directly in Unreal's Substrate, Blender Cycles, and Pixar's RenderMan. Students will implement the complete Principled BRDF in HLSL, validate it against a furnace test for energy conservation, and produce a material grid that demonstrates each parameter's visual effect."
+}

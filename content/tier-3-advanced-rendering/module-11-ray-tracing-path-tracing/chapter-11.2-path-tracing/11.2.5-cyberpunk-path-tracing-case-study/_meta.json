@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 5,
+  "title": "Real-Time Path Tracing in Cyberpunk 2077 — Case Study",
+  "description": "Deconstructs the RT Overdrive mode in Cyberpunk 2077: how CD Projekt Red integrated full path tracing into a hybrid deferred/PT pipeline, the ReSTIR DI and ReSTIR GI configurations used, the temporal integration strategy, and the NRD denoiser settings that produce the published quality at ~4 SPP. This case study concretizes the entire Tier 3 ray tracing curriculum into a production-shipping example. Students will compare the Overdrive mode rendering pipeline to the standard deferred pipeline, identify which render passes were replaced or augmented, and propose a simplified version targeting current mid-range hardware."
+}

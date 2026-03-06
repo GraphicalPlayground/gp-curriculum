@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Render Output Units (ROPs) & Rasterizers",
+  "description": "Covers the fixed-function hardware at the back of the graphics pipeline: the rasterizer units that generate pixel fragments from triangles and the Render Output Units that perform depth test, stencil test, blending, and framebuffer write. Understanding ROP throughput and the relationship between MSAA sample count and ROP bandwidth helps diagnose fill-rate bottlenecks in overdraw-heavy scenes. Students will measure ROP utilization during a transparent particle scene, identify the transition point between being ROP-limited and bandwidth-limited, and propose architecture-appropriate solutions."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 3,
+  "title": "Material System Design",
+  "description": "A material system is the engine layer that manages the connection between artist-authored material parameters and the underlying shader permutations, PSOs, and resource bindings. This chapter examines how production material systems achieve both artist-friendliness and runtime performance simultaneously."
+}

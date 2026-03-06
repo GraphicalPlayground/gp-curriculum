@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Ray Tracing Cores — RT Cores & BVH Traversal Units",
+  "description": "Explains the dedicated hardware in NVIDIA Turing/Ampere/Ada (RT Cores) and AMD RDNA2/3 (Ray Accelerator) that accelerates BVH traversal and ray-AABB/ray-triangle intersection, and how this hardware interacts with standard shader execution for hit and miss shader invocations. RT core throughput and its relationship to BVH quality (SAH vs. LBVH) is a primary performance variable in hardware ray tracing workloads. Students will measure RT core utilization during a ray-traced shadow pass, compare SAH-built vs. LBVH-built BVH performance, and explain why TLAS refit is preferred to rebuild for dynamic objects."
+}

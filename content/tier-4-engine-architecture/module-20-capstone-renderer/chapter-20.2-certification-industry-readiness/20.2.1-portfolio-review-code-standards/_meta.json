@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Portfolio Review & Code Standards",
+  "description": "Covers the technical documentation standards applied to graphics engineering portfolios: renderer architecture documentation, API documentation with code examples, performance reports with profiling data, and pull request culture including code review checklist items. A well-documented renderer portfolio is more valuable than an undocumented one at equal quality; studios evaluate your ability to communicate technical decisions as directly as they evaluate the technical decisions themselves. Students will produce a complete documentation package for their capstone renderer: architecture overview, API reference for five key systems, performance report, and three annotated RenderDoc captures."
+}

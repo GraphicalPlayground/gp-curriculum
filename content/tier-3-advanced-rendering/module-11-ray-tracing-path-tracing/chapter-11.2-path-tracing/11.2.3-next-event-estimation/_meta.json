@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Next Event Estimation (NEE)",
+  "description": "Explains Next Event Estimation as the technique of explicitly connecting each path vertex to a sampled light source, dramatically reducing variance from direct illumination contributions that would otherwise require lucky light-source hits through pure BSDF sampling. NEE is a mandatory optimization in any practical path tracer and the interaction between NEE and MIS weights determines unbiasedness. Students will add NEE to a provided basic path tracer, verify MIS unbiasedness using a furnace test, and measure variance reduction on a scene with a small area light source."
+}

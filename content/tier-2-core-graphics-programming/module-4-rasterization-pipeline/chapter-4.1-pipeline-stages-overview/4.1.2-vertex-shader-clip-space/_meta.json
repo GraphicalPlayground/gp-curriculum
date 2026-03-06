@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Vertex Shader Stage & Clip Space",
+  "description": "Covers vertex shader inputs and outputs, the mandatory position output in clip space, per-vertex data amplification, and the gl_VertexIndex / SV_VertexID built-in for procedural geometry. The vertex shader is the first programmable stage and its output defines the geometric foundation on which all subsequent stages operate. Students will implement a vertex shader that procedurally generates a sphere without a vertex buffer, apply a vertex displacement for water waves, and correctly pass interpolated data through varying / interpolant outputs to the pixel shader."
+}

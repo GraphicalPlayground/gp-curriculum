@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Vectors & the Geometric Toolkit",
+  "description": "Vectors are the fundamental data type of 3D graphics — almost every GPU register holds one. This chapter removes the gap between the abstract mathematical object and its concrete meaning in a coordinate system, addressing the persistent confusion between points and directions that affects even experienced developers."
+}

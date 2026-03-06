@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Async Compute Scheduling in the Frame Graph",
+  "description": "Explains how the render graph extends to multi-queue scheduling by identifying passes that can execute on the compute queue concurrently with graphics passes, inserting queue semaphore signals/waits at the appropriate boundaries, and solving the overlap feasibility problem using the resource lifetime data already available from compilation. Async compute overlap between SSAO computation and scene geometry rendering is a common 1-2ms frame time saving in GPU-compute-heavy scenes. Students will extend the GP Engine render graph to schedule SSAO on the compute queue overlapped with the gbuffer pass, implement the queue synchronization, and measure frame time improvement using GPU timestamps."
+}

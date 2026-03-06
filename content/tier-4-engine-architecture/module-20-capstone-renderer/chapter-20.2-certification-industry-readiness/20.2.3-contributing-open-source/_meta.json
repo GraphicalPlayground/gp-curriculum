@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Contributing to GP Engine Open Source",
+  "description": "Covers the GP Engine open-source contribution process: identifying improvement opportunities using the issue tracker, the design proposal template for new features, the pull request review process including automated testing requirements, and the community norms for technical discussions. Contributing to a public codebase is both a portfolio signal and a professional development activity that connects students to the broader graphics engineering community. Students will submit a pull request to the GP Engine public repository with a real improvement (not a trivial fix), respond to review feedback, and achieve merge approval from a GP Engine maintainer."
+}

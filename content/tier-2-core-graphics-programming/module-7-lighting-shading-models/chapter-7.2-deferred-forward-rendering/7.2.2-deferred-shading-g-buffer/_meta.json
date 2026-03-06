@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Deferred Shading & the G-Buffer",
+  "description": "Covers the G-buffer design (typical four-target layout encoding albedo, normals, roughness/metallic, and optional emissive), the deferred lighting pass architecture, and the bandwidth trade-offs that make G-buffer design one of the highest-impact decisions in a deferred engine. Every pixel in a deferred renderer reads the full G-buffer for every light, making bandwidth minimization through careful attribute packing the primary optimization lever. Students will design a four-render-target G-buffer for a PBR deferred renderer, implement the geometry pass and lighting pass, and measure the bandwidth impact of changing normal encoding from 32bpp to 16bpp."
+}

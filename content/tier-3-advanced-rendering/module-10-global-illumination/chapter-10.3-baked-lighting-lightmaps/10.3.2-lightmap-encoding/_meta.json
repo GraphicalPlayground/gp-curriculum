@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Lightmap Encoding — RGBM, RGBE, L1 SH",
+  "description": "Covers HDR encoding formats for baked indirect light: RGBM (scale packed in alpha, used in earlier UE versions), RGBE (Radiance HDR, Ward 1991), and L1 Spherical Harmonics (two textures storing 6 SH coefficients for directional irradiance). The choice of encoding format determines the dynamic range, directionality, and memory cost of baked lighting; L1 SH enables directional baked light that correctly responds to normal mapping. Students will implement all three encoding formats, decode them in a pixel shader, compare their visual quality under varied normal maps, and measure their VRAM footprint for a test level."
+}

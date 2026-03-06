@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "RHI Layer & Render Thread Architecture",
+  "description": "Deconstructs UE5's three-thread rendering architecture: the Game Thread (ECS updates, script evaluation), the Render Thread (renderer logic, command generation), and the RHI Thread (API call submission, synchronization), with analysis of how the double-buffered render state system prevents data hazards between threads. The three-thread architecture is one of UE5's most significant performance advantages on modern multi-core CPUs and its design directly informs Module 19's threading content. Students will instrument a UE5 frame capture in Unreal Insights, identify the three-thread timeline, measure the inter-thread latency, and propose where the GP Engine should adopt a similar architecture."
+}

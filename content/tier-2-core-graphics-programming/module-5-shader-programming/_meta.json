@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 5,
+  "title": "Shader Programming — HLSL & GLSL",
+  "description": "This module teaches professional-grade shader development across HLSL and GLSL, covering language fundamentals, the shader compilation pipeline, compute shaders, and performance optimization techniques. It is designed to take a developer from writing their first shader to understanding the trade-offs behind every line of production shader code. The curriculum draws heavily from techniques used in DOOM Eternal's shader system (ID Tech 7), Frostbite's shader permutation management, and the GP Engine's own shader infrastructure. Students should complete Module 4 before beginning this module."
+}

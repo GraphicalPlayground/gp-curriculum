@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Job System Design — Lock-Free Queues & Fibers",
+  "description": "Covers the task-based threading models used in Naughty Dog's (fibers), DICE's Frostbite (job graph), and Ubisoft's Anvil (work queue): the fiber-based coroutine system that allows jobs to suspend waiting for dependencies without blocking OS threads, lock-free multi-producer multi-consumer queues for inter-thread work distribution, and the CPU affinity strategy for separating render and simulation threads. Engine job systems are the foundation that enables multi-threaded command recording and parallel simulation; their design determines the engine's CPU scaling characteristics. Students will implement a minimal fiber-based job system with lock-free queues, integrate it with the GP Engine's render graph for parallel pass recording, and measure CPU utilization scaling from 1 to 8 cores."
+}

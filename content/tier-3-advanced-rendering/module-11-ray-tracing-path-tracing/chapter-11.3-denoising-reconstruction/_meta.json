@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 3,
+  "title": "Denoising & Reconstruction",
+  "description": "At 1-4 samples per pixel, every real-time path tracer produces extremely noisy output that requires sophisticated denoising to be usable. Denoising is not a post-process afterthought — it is a core system co-designed with the sampling strategy."
+}

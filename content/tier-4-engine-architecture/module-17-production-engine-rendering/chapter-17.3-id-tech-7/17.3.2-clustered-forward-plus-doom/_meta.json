@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Clustered Forward+ Rendering in DOOM Eternal",
+  "description": "Deconstructs ID Tech 7's Clustered Forward+ implementation that allows DOOM Eternal to render thousands of dynamic lights on current-gen consoles without deferred rendering, covering the 3D cluster volume construction, the per-cluster light list computation in compute, and the forward pass that evaluates only the cluster-assigned lights per pixel. This lesson demonstrates that deferred rendering is not always the optimal choice for high dynamic light count, especially on tile-based mobile and console GPUs. Students will trace a specific light from the scene light array through the cluster assignment compute pass to its pixel evaluation in a forward fragment shader, and measure per-cluster light list lengths on provided test scenes."
+}

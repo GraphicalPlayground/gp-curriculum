@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "DECIMA Renderer Architecture Overview",
+  "description": "Deconstructs DECIMA's deferred rendering pipeline, covering the G-buffer format choices made for open-world heterogeneous materials, the cluster-based light culling system, and the architectural decisions that differentiate it from Unreal Engine's deferred pipeline. Understanding multiple production deferred renderer architectures reveals the design space and the legitimate reasons different studios make different decisions. Students will compare DECIMA's G-buffer layout to UE4's and identify the specific design trade-offs (specular encoding precision, normal compression, material ID bits) that reflect the different game scenarios each engine targets."
+}

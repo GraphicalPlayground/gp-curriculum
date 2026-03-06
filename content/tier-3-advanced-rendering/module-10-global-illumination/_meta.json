@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 10,
+  "title": "Global Illumination Techniques",
+  "description": "This module covers the full spectrum of global illumination techniques from screen-space approximations through the state-of-the-art real-time GI systems deployed in Unreal Engine 5 and Cyberpunk 2077. It examines each technique's computational cost, visual accuracy, dynamic range, and appropriate use case, providing the decision framework engineers use to select and combine GI solutions in production. References include Lumen (Epic), DDGI (NVIDIA Research), ReSTIR (NeurIPS 2020), and Guerrilla Games' GDC talks on Horizon. Prerequisite: Module 9."
+}

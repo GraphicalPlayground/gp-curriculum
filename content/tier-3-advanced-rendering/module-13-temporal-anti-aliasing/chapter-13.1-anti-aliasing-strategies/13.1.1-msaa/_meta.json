@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "MSAA — Hardware Multi-Sample Anti-Aliasing",
+  "description": "Explains MSAA's coverage sample model, the resolve operation, interaction with deferred rendering (MSAA and G-buffers are incompatible without tiled deferred workarounds), and the specific hardware counters that reveal MSAA's bandwidth overhead on modern tile-based GPUs. MSAA is still the anti-aliasing of choice for forward-rendered scenes on high-refresh-rate monitors where temporal methods introduce unacceptable motion blur. Students will configure 4x MSAA in Vulkan, implement custom MSAA resolve with tone-mapping-aware luminance weighting, and measure the bandwidth and ROP cost increase versus 1x MSAA."
+}

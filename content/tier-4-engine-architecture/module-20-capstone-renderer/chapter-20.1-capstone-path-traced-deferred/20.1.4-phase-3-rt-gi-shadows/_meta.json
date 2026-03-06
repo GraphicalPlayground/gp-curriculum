@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Phase 3 — Ray-Traced GI & Shadows with Denoising",
+  "description": "Integrates DXR ray-traced ambient occlusion, ray-traced directional shadow with contact hardening, and a single-bounce diffuse GI pass using DDGI-style hemisphere sampling, with NRD temporal denoising on each signal. The RT integration is the technically most demanding phase; correct integration requires careful signal separation and denoiser configuration for each RT output independently. Students will deliver integrated RT AO, shadows, and GI with temporal stability validation over 100 frames of camera movement, and submit a profiling report showing per-pass GPU time."
+}

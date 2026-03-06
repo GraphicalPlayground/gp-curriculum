@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Energy Conservation & Fresnel",
+  "description": "Explains energy conservation as the constraint that a surface cannot reflect more light than it receives, Schlick's Fresnel approximation as the standard real-time implementation, the Lazanyi correction for improved accuracy, and artist-friendly F0 values for common material types. Energy conservation violations produce unphysical materials that look bright from every angle — a common artifact in pre-PBR engines that Fresnel and the energy-conserving diffuse term prevent. Students will implement and verify Schlick Fresnel, add the energy-conserving diffuse term that ensures the diffuse and specular lobes sum to unity, and produce a validation render matching a reference path-traced result."
+}

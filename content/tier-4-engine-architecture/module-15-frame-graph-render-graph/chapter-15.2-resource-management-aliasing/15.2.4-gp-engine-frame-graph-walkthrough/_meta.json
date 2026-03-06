@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "GP Engine Frame Graph — Full Implementation Walkthrough",
+  "description": "Provides a guided walkthrough of the complete GP Engine frame graph implementation: the pass builder API, the resource registry, the compile phase (topological sort, cull, lifetime, alias, barrier), and the execute phase (command list recording, barrier injection, transient resource commit/decommit). Reading a complete production-quality frame graph implementation consolidates all concepts from this module into a navigable reference. Students will add a new feature pass to the GP Engine render graph, correctly declare its resource accesses, verify integration with the existing barrier and aliasing systems, and submit the implementation via the GP version control system."
+}

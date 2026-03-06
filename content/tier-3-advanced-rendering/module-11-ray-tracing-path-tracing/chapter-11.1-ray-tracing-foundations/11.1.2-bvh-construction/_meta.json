@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "BVH Construction — SAH, LBVH",
+  "description": "Explains Surface Area Heuristic (SAH) BVH construction as the quality-optimal approach for static geometry, and LBVH (Linear BVH using Morton code sort) as the fast rebuild approach for dynamic geometry, along with BLAS refitting for animated meshes where the topology does not change. BVH quality directly affects ray traversal performance; a poorly built BVH can make ray tracing 5-10x slower than an SAH-built equivalent. Students will implement LBVH construction using a GPU radix sort, compare traversal performance against an SAH-built CPU BVH, and implement BLAS refitting for a skinned character mesh."
+}

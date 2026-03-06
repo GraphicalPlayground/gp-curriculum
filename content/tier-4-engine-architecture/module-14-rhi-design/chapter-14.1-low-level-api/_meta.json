@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "Low-Level API Mastery",
+  "description": "Explicit APIs (Vulkan, DX12, Metal) provide the performance and control required by AAA engines but expose the programmer to synchronization hazards, resource state machine management, and descriptor binding complexity that implicit APIs hide. This chapter removes the fear of the explicit API."
+}

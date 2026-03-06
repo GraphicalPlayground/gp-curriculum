@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "BVH Trees — Building & Traversal",
+  "description": "Introduces Bounding Volume Hierarchies as the spatial acceleration structure at the heart of both software ray tracing and the hardware TLAS/BLAS system in DXR and Vulkan ray tracing. Understanding BVH construction (SAH-based splits, LBVH Morton code sort) and traversal is prerequisite for Module 11 (Ray Tracing). Students will implement a simple AABB-based BVH builder, traverse it with a ray test, and explain why GPU ray tracing hardware provides separate refitting and rebuilding operations for dynamic vs static geometry."
+}

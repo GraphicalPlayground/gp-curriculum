@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Real Numbers, Intervals & Absolute Value",
+  "description": "Covers the real number line, open and closed interval notation, and absolute value — the foundational vocabulary used in every mathematical proof and code comment in this course. Understanding interval notation is critical for clamping operations, UV coordinate validation, and depth range mapping. After this lesson, students will read and write mathematical expressions used in graphics literature and engine source code without ambiguity."
+}

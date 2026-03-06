@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "Modern C++ Bootcamp",
+  "description": "This chapter targets the specific C++ features most relevant to engine programming, skipping the parts of the language that rarely appear in graphics codebases and emphasizing the low-level memory model that governs performance. A common misconception is that C++ for games means learning STL containers; here the focus is on manual memory management and zero-cost abstractions."
+}

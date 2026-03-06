@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Portal & Cell Visibility",
+  "description": "Explains cell-and-portal visibility systems where the scene is divided into convex cells connected by portal polygons, and visibility is determined by tracing portal chains from the camera cell — the algorithm used in Quake's BSP renderer, the Anvil Engine's zone streaming system, and the GP Engine's interior scene support. Portal systems are optimal for interior environments with many small rooms because they trivially cull unseen rooms at cell granularity without any per-object work. Students will implement a cell-portal visibility system for a simple multi-room scene, integrate it with the frustum cull for a hybrid interior/exterior transition, and measure object draw count reduction versus pure frustum culling."
+}

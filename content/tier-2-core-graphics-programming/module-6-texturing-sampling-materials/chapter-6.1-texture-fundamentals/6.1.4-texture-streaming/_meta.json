@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Texture Streaming Architecture",
+  "description": "Explains the software and hardware mechanisms for streaming only the required mip levels of each texture into VRAM based on on-screen usage: software residency tracking, DirectStorage / NVMe direct upload, sparse binding (Vulkan) / reserved resources (DX12), and the feedback buffer mechanism used by virtual texturing. Texture streaming is essential for open-world titles where total texture data vastly exceeds available VRAM. Students will implement a simple mip streaming system that tracks per-texture GPU mip usage via feedback, queues loads on a background thread, and commits newly loaded mips via sparse binding."
+}

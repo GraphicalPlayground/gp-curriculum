@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Dot Product — Projection & Angle",
+  "description": "Derives and demystifies the dot product as both a projection operator and a cosine calculator, with applications in diffuse lighting (Lambertian term), frustum plane tests, and back-face culling. This is arguably the single most-used mathematical operation in real-time rendering, appearing in every shading model and many culling algorithms. Students will implement a Lambert diffuse shader, a view-direction dot product for Fresnel, and a plane-point distance test from memory."
+}

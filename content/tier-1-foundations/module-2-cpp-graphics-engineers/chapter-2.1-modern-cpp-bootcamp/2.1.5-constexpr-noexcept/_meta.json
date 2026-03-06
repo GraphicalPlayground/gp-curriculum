@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 5,
+  "title": "constexpr, noexcept & Compile-Time Evaluation",
+  "description": "Demonstrates how constexpr functions and variables push computation from runtime into the compiler, producing faster code with zero overhead for hash tables, lookup tables, and compile-time-resolved shader variant keys. The noexcept specifier enables specific compiler optimizations and is required by many STL algorithms; understanding it prevents unexpected performance cliffs. Students will implement a compile-time CRC hash, a constexpr string interning table, and a noexcept-aware resource destruction path."
+}

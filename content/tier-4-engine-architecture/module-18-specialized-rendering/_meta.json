@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 18,
+  "title": "Specialized Rendering Domains",
+  "description": "This module covers four specialized rendering domains that each require dedicated rendering systems beyond the core deferred pipeline: open-world terrain and vegetation, atmospheric and volumetric rendering, water and fluid simulation, and digital human character rendering. Each domain is treated at production depth, drawing from shipped games and engine documentation. Prerequisites: Modules 15 and 17."
+}

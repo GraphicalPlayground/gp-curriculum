@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Procedural Terrain Generation & GPU Erosion",
+  "description": "Covers procedural terrain generation using FBM noise with tectonic uplift simulation, hydraulic erosion (water flow simulation that carves realistic river channels and smooth slopes), and thermal erosion (material transport on steep slopes that creates natural scree fields) all implemented as GPU compute passes. Procedural generation with erosion simulation is the standard approach for creating naturalistic terrain in open-world games and enables infinite landscape variation. Students will implement hydraulic erosion as a GPU compute shader iterating over a 1024x1024 heightmap, run 1000 erosion iterations, and compare the visual result against a non-eroded baseline."
+}

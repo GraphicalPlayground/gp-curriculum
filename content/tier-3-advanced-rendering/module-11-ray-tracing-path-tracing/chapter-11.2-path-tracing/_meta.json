@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Path Tracing",
+  "description": "Path tracing is the ground-truth reference algorithm that all real-time GI techniques approximate. Understanding it from first principles makes the approximations and trade-offs of ReSTIR, DDGI, and Lumen immediately comprehensible."
+}

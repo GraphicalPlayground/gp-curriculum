@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Depth of Field — Bokeh & Circle of Confusion",
+  "description": "Covers physically based depth of field: circle-of-confusion radius computation from aperture, focal length, and focus distance; scatter-as-gather bokeh accumulation using a compute-based tiled approach; and hexagonal bokeh shape via a three-pass separable filter that matches real lens geometry. Cinematic depth of field is a key visual differentiator for first-person games and cutscenes; physically parameterized DoF enables cinematographers to set F-stop and focal length values directly. Students will implement scatter-as-gather DoF with configurable aperture shape, add a bokeh threshold that allows bright highlights to scatter past the gather radius, and measure the GPU cost of hexagonal versus circular bokeh."
+}

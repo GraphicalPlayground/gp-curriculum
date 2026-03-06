@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "Pipeline Stages Overview",
+  "description": "This chapter establishes the complete mental model of the GPU pipeline from input assembly to output merger. Many developers memorize the stage names without understanding the data transformations at each boundary — this chapter fixes that by tracing data through each stage explicitly."
+}

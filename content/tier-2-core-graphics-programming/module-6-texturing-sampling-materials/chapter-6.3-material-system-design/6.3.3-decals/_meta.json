@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Decals — Deferred & Volumetric",
+  "description": "Covers deferred decals (projected onto the G-buffer in screen space after depth reconstruction) and volumetric decals (using 3D SDF blending) as the standard technique for placing grunge, damage, splatter, and environmental detail onto arbitrary scene geometry without modifying meshes. Decals are a core content pipeline feature in every AAA engine; their efficient implementation requires careful interaction with depth reconstruction and normal encoding schemes. Students will implement a deferred decal pass that reads depth and reconstructs world position, blends albedo and normal channels, and clips to a bounding box volume using the stencil buffer."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Synchronization — Fences, Semaphores, Barriers, Events",
+  "description": "Provides a comprehensive treatment of GPU synchronization: Vulkan pipeline barriers (stage masks, access masks, image layout transitions), DX12 resource state transitions and split barriers, timeline semaphores for multi-queue synchronization, and the common incorrect synchronization patterns that cause data hazards and GPU hangs without validation layer detection. Synchronization bugs are the hardest category of graphics bugs to diagnose because they are timing-dependent and often produce no validation error. Students will implement a multi-queue async compute pipeline with correct semaphore synchronization, introduce three intentional barrier bugs, and diagnose them using the Vulkan validation layer and NSight."
+}

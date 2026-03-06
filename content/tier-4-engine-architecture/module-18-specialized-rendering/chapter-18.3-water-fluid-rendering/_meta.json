@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 3,
+  "title": "Water & Fluid Rendering",
+  "description": "Water rendering spans simulation (how the surface moves), shading (how light interacts with water), and compositing (how underwater rendering is handled). This chapter covers the GPU simulation and rendering techniques used in production titles targeting highly realistic ocean environments."
+}

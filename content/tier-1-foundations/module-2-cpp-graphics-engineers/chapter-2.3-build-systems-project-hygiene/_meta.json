@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 3,
+  "title": "Build Systems & Project Hygiene",
+  "description": "Professional graphics engineering requires mastering the toolchain around the code, not just the code itself. This chapter covers the build and debugging infrastructure used in the GP Engine and in AAA production environments, establishing habits that prevent entire categories of defects."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Temporal Super Resolution Architecture",
+  "description": "Provides an internal architectural breakdown of DLSS 2 and FSR 2 from a graphics engineering perspective: the input signals each requires (jittered frame, motion vectors, depth, optional exposure), the upscaling and temporal accumulation passes, the RCAS sharpening step, and the frame generation interpolation pipeline unique to DLSS 3. Understanding the internal architecture allows rendering engineers to optimally configure inputs and debug artifacts in integration. Students will produce a clean signal checklist for a DLSS 2 integration, diagnose two provided integration artifacts (motion blur in UI elements, shimmering in specular highlights), and implement the FSR 2 reactive mask for particle transparency."
+}

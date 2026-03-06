@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "The Render Graph Concept",
+  "description": "The render graph is the highest-level architectural component of a modern rendering pipeline, responsible for expressing what passes execute and in what order without the programmer managing individual resource state transitions. Its introduction by DICE in Frostbite solved the maintainability crisis caused by thousands of manually managed resource barriers in a complex engine."
+}

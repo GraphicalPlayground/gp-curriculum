@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Profiling with Tracy, Perf & GPU Timing",
+  "description": "Introduces Tracy as a lightweight instrumented profiler for CPU frame analysis, Linux perf for cache miss and branch prediction profiling, and GPU timestamp queries for measuring per-pass GPU time with pipeline flush considerations. Premature optimization is only prevented by accurate measurement; this lesson establishes the discipline of profiling-first that runs through all performance-related content in Tiers 3 and 4. Students will instrument a renderer with Tracy scopes, identify the top CPU hotspot, issue GPU timestamp queries around a compute pass, and interpret the resulting flame graph."
+}

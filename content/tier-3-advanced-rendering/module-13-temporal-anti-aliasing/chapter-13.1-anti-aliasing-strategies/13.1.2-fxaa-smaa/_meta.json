@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "FXAA & SMAA",
+  "description": "Covers FXAA as a post-process geometric edge detection filter (luminance gradient detection → blend direction → filtered sample) and SMAA as its improved successor that uses both edge detection and pattern-matching-based sub-pixel accuracy for sharper edges. Both techniques are post-process passes that require no changes to the rendering pipeline and remain useful as fallback anti-aliasing when TAA is disabled. Students will implement FXAA from the Lottes shader reference, implement SMAA with T2x temporal component, and compare both against 4x MSAA in a controlled test scene."
+}

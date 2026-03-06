@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Indirect Rendering — DrawIndirect & ExecuteIndirect",
+  "description": "Explains how DrawIndirect (Vulkan/OpenGL) and ExecuteIndirect (DX12) allow the GPU to consume draw call arguments written by a preceding compute pass, enabling GPU-generated draw calls where the CPU submits a fixed upper-bound dispatch and the GPU determines the actual draw arguments. Indirect rendering is the enabling primitive for all GPU-driven visibility systems; without it the CPU must readback visibility results, introducing a full frame of latency. Students will implement a GPU compute pass that generates DrawIndirect arguments for visible objects, submit the indirect draw call, and verify correctness using RenderDoc's draw call capture."
+}

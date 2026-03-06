@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 14,
+  "title": "Render Hardware Interface (RHI) Design",
+  "description": "This module provides a complete treatment of low-level graphics API design and the construction of an abstraction layer over Vulkan, DirectX 12, and Metal. Students will work directly with the explicit API layer, managing command queues, synchronization primitives, descriptor heaps, and memory allocators at a level of detail not exposed by any higher-level framework. The module draws from the public RHI design documents of Unreal Engine 5, the bgfx cross-platform renderer, and the Diligent Engine. Prerequisites: All Tier 1-3 modules."
+}

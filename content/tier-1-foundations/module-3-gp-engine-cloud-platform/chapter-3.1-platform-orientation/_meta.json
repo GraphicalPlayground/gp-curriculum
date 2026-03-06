@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "Platform Orientation",
+  "description": "Before any rendering can happen, students must understand the cloud execution model that distinguishes GP from local development environments. A common misconception is that cloud rendering introduces latency; this chapter explains how the streaming architecture masks that latency for interactive development."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Discrete LODs & Screen-Space Error Metrics",
+  "description": "Covers discrete LOD as the traditional approach where multiple mesh resolutions are pre-authored and selected based on a screen-space size metric (solid angle or screen pixels covered), including the hysteresis threshold that prevents LOD popping at the transition distance. Discrete LODs remain the standard in current-gen console titles where artist control over each LOD level is required for memory budget compliance. Students will implement screen-space error metric LOD selection with hysteresis, integrate it with the GPU-driven indirect rendering system for zero-CPU LOD switch cost, and measure the triangle count reduction on a test scene with 1000 LOD-enabled objects."
+}

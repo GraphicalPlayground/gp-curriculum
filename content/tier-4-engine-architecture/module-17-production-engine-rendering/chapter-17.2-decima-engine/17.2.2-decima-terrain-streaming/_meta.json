@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "DECIMA Terrain & World Streaming",
+  "description": "Covers DECIMA's continuous LOD terrain rendering (adaptive quad-tree tessellation with GPU-side LOD distance evaluation), the tile-based world streaming system (64m tiles with visibility-driven prefetch), and the GPU-driven streaming triggers that use the occlusion culling system from Module 16.2.4 to predict required data. Open-world streaming is one of the most technically demanding systems in game development; DECIMA's approach in Horizon is considered a reference implementation. Students will design a DECIMA-inspired streaming system for a 4km² world using the GP Engine, define the tile structure and streaming state machine, and implement the GPU-driven visibility trigger."
+}

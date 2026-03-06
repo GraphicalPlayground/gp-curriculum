@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 7,
+  "title": "Lighting & Shading Models",
+  "description": "This module covers lighting architecture from classic empirical shading models through modern deferred and clustered rendering approaches that support thousands of dynamic lights. It examines the historical progression from Phong to PBR-ready G-buffer pipelines and introduces the visibility buffer paradigm used in Nanite. The material draws extensively from DOOM (2016) clustered forward, Battlefield's deferred lighting system, and Unreal Engine 4's original deferred implementation. Prerequisite: Modules 5 and 6."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Async Compute & Queue Overlap",
+  "description": "Covers the identification of async compute overlap opportunities: finding GPU passes where the graphics queue is memory-bandwidth-bound and an ALU-bound compute pass can run concurrently, measuring the theoretical overlap window, implementing the queue semaphore synchronization, and validating with NSight timeline that actual overlap is achieved. Async compute overlap between post-processing and geometry passes commonly saves 2-5ms on current-gen hardware when correctly implemented. Students will analyze the GP Engine's frame timeline for async compute opportunities, implement compute queue overlap for three eligible passes, and verify sustained overlap under worst-case frame composition."
+}

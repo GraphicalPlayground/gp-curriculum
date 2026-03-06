@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Mesh Shaders — The Modern Alternative",
+  "description": "Introduces the mesh shader pipeline (Amplification + Mesh shaders replacing the entire IA → VS → GS path) and the meshlet primitive that groups ~64 triangles into GPU-friendly clusters for coherent culling and shading. Mesh shaders are the enabling technology behind Nanite's software rasterizer and are increasingly standard in AAA engines targeting DX12 Ultimate and Vulkan 1.3 hardware. Students will implement a basic mesh shader that processes a meshlet, perform per-cluster frustum culling in the amplification shader, and compare throughput against the equivalent legacy geometry shader."
+}

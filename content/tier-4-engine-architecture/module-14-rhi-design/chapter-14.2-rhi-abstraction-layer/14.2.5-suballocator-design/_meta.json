@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 5,
+  "title": "Buffer & Texture Suballocator Design",
+  "description": "Implements GPU memory suballocators for vertex buffers, constant buffers, and textures using buddy allocator (external fragmentation-resistant, O(log n) allocation), slab allocator (constant-time allocation for fixed-size objects), and ring buffer (zero-overhead per-frame transient allocations). Custom suballocators replace per-resource vkAllocateMemory/ID3D12Device::CreateCommittedResource calls and dramatically reduce allocation overhead in scenes with thousands of dynamic objects. Students will implement and benchmark all three allocator types, profile allocation overhead in a particle system with 50,000 dynamic buffers, and measure peak fragmentation under each allocation pattern."
+}

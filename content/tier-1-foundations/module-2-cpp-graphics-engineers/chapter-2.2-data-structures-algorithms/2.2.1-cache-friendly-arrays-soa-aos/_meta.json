@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Cache-Friendly Arrays, SOA vs AOS",
+  "description": "Contrasts Array-of-Structures (AOS) layout with Structure-of-Arrays (SOA) layout and demonstrates how SOA dramatically improves SIMD utilization and GPU upload bandwidth for large vertex and instance data. Modern GPU-driven pipelines with indirect rendering are architected around SOA-style per-attribute arrays that map directly to buffer binding patterns. Students will measure AOS vs SOA performance with Tracy, implement a SOA particle system, and explain why Nanite stores attributes in separate buffers per cluster."
+}

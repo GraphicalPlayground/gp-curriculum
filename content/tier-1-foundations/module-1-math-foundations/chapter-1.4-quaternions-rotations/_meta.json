@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 4,
+  "title": "Quaternions & Rotations",
+  "description": "Quaternions are the rotation representation used internally by every production game engine for character animation, camera systems, and physics — despite never appearing directly in shader code. This chapter addresses gimbal lock directly to motivate why quaternions exist before teaching the algebra."
+}

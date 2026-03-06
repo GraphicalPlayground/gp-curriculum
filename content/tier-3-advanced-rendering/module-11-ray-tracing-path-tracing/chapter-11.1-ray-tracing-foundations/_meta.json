@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "Ray Tracing Foundations",
+  "description": "Before writing a single ray tracing shader, engineers must understand the acceleration structure architecture and the DXR/Vulkan ray tracing API model. The TLAS/BLAS hierarchy and the shader binding table are unique to ray tracing pipelines and have no analog in rasterization."
+}

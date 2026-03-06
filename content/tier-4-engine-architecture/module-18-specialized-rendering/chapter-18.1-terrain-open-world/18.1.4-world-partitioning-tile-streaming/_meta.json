@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "World Partitioning & Tile-Based Streaming",
+  "description": "Covers world partitioning systems that divide large worlds into streaming tiles: the tile state machine (unloaded, loading, loaded, active), the priority queue that determines which tiles to load based on camera distance and velocity prediction, the memory budget enforcement that unloads low-priority tiles under memory pressure, and the transition LOD that prevents visible tile boundary seams. World streaming is prerequisite for any game with a world larger than VRAM capacity; DECIMA, Frostbite, and UE5's World Partition all implement variants of this architecture. Students will implement a tile-based streaming system for the GP Engine's terrain module, add priority-based preloading using camera velocity, and demonstrate seamless tile loading and unloading at runtime."
+}

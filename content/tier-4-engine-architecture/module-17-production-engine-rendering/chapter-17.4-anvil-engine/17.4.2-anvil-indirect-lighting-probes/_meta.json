@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Anvil Indirect Lighting Probe System",
+  "description": "Covers Anvil's real-time indirect lighting probe system that places hundreds of SH probes throughout large open-world environments, updates a subset each frame using a priority queue based on lighting change, and blends between probes using tetrahedral interpolation for smooth indirect light transitions without seams. This probe system provides dynamic GI for large AC-scale worlds where Lumen's surface cache approach would be too memory-intensive. Students will implement tetrahedral probe interpolation, add priority-based probe re-lighting on a 10-frame update budget, and integrate the system with the GP Engine's deferred lighting pass."
+}

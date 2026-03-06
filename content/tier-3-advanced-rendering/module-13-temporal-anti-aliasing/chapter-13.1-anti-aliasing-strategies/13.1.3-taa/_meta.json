@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "TAA — Temporal Anti-Aliasing",
+  "description": "Provides a complete implementation guide for Temporal Anti-Aliasing: jitter pattern selection (Halton sequence), motion vector generation, history reprojection, YCoCg color space clamping for ghosting mitigation, and the specific reprojection failure handling (velocity rejection, depth test) that determines temporal stability quality. TAA is the industry-standard anti-aliasing technique in every major game engine and its implementation quality determines the baseline visual quality of the entire rendering pipeline. Students will implement TAA with Halton jitter and YCoCg clamping, tune the blend factor for an appropriate temporal lag/ghosting trade-off, and profile the performance cost of the full TAA resolve pass."
+}

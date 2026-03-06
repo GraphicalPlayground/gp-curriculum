@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "CMake Fundamentals for Graphics Projects",
+  "description": "Covers target-based CMake 3.x best practices for configuring multi-platform graphics projects, managing Vulkan/DX12 SDK dependencies, and setting compile flags for SIMD and sanitizer builds. The GP Engine uses CMake as its build system and every lab submission compiles through it. Students will write a complete CMakeLists.txt for a multi-module graphics project, configure SPIR-V shader compilation as a build step, and troubleshoot linker errors caused by mismatched library configurations."
+}

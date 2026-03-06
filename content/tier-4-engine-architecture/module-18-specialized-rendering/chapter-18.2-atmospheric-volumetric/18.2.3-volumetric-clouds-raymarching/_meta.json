@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Volumetric Clouds — Raymarching & SDF",
+  "description": "Covers volumetric cloud rendering using raymarched density fields: the multi-octave Perlin-Worley noise 3D texture that defines cloud density, the lighting model (single-scattering phase function for silver-lining effect, multiple-scattering approximation), the temporal reprojection that accumulates low-sample-count raymarches over 16 frames, and the SDF-based cloud layer approach used in some engines for cheap but visually plausible results at low GPU cost. Students will implement a raymarched volumetric cloud layer with 128 samples per ray, add temporal reprojection, profile the cost reduction from reprojection, and compare quality against a billboard cloud reference."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Anvil Crowd Rendering System",
+  "description": "Deconstructs Anvil's crowd rendering system that populates AC's cities with thousands of simultaneous pedestrians: LOD instancing that collapses distant pedestrians to animated impostors, GPU animation with a shared skeleton palette, frustum and occlusion cull at instance granularity, and the behavioral simulation that directs crowd movement without an explicit AI agent per NPC at distance. Rendering dense crowds without destroying performance requires a dedicated rendering architecture — Anvil's system is one of the few detailed in public presentations. Students will implement GPU instanced crowd rendering with a shared skeleton animation palette, add frustum culling at instance granularity, and measure the performance ceiling in NPCs-per-frame."
+}

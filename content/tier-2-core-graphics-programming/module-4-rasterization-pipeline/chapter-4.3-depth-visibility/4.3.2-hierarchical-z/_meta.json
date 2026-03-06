@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Hierarchical Z (Hi-Z) & Early-Z",
+  "description": "Explains the Hi-Z depth pyramid as a mip chain of the depth buffer where each level stores the minimum (or maximum) depth of a 2x2 region, enabling hierarchical occlusion tests that reject large occluded objects without reading every depth sample. Hi-Z is the foundation of GPU-driven occlusion culling used in Nanite, DECIMA, and ID Tech 7 — a technique studied in detail in Module 16. Students will implement a Hi-Z pyramid generation compute shader, use it to test whether a bounding box is occluded, and integrate the result into a GPU culling pass with indirect draw calls."
+}

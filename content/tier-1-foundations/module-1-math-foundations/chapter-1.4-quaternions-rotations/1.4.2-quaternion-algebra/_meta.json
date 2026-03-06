@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Quaternion Algebra",
+  "description": "Introduces quaternions as a compact four-component rotation representation that avoids gimbal lock and supports efficient concatenation, with derivation of the multiplication rule and its relationship to axis-angle rotation. Quaternions are the default rotation type in Unreal (FQuat), Unity (Quaternion), and the GP Engine, making this lesson essential for every module in the curriculum. Students will multiply quaternions by hand, apply them to rotate vectors, and implement a simple quaternion-based first-person camera."
+}

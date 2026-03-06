@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Phase 1 — RHI Layer & Frame Graph Setup",
+  "description": "Establishes the renderer foundation: GP Engine RHI configuration for the target API (Vulkan recommended), frame graph setup with a skeleton of all planned passes registered as stubs, transient resource declarations for all G-buffer and intermediate targets, and a validation test that executes all passes with no-op shaders to verify barrier correctness. Building the frame graph skeleton before implementing any pass is the industry-standard approach to avoid architectural dead ends. Students will deliver a running frame graph with all passes executing and validated by the Vulkan debug layer with zero validation errors."
+}

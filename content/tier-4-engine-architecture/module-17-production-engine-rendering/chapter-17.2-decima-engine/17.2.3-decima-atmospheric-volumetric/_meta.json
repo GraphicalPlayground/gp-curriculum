@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "DECIMA Atmospheric & Volumetric Rendering",
+  "description": "Deconstructs DECIMA's physically based sky (Bruneton atmosphere model with precomputed transmittance and scattering LUTs), cloud layer (layered billboard approach in HZD, full volumetric raymarching in HFW), and volumetric fog (froxel grid with time-of-day light injection) as implemented in the Horizon series. Atmospheric rendering is increasingly expected in open-world games; DECIMA's atmosphere is notable for its real-time parameters that allow full day-night cycle without re-baking. Students will implement a simplified Bruneton atmosphere using precomputed LUTs, add volumetric cloud compositing, and integrate the atmospheric scattering with the GP Engine's directional light system."
+}

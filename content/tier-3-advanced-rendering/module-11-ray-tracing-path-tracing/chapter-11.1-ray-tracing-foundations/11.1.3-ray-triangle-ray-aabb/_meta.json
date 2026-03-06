@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Ray-Triangle & Ray-AABB Intersection",
+  "description": "Derives the Moller-Trumbore ray-triangle intersection algorithm, the slab method for ray-AABB intersection, and the watertight ray-triangle test that prevents false misses on shared edges between adjacent triangles. Understanding intersection algorithms is essential for implementing software BVH traversal (used in Lumen's software RT) and for diagnosing artifacts from geometry that produces incorrect BVH AABBs. Students will implement both intersection tests, verify correctness on degenerate cases, and integrate them into the software ray tracer used in the Lumen deconstruction exercise."
+}

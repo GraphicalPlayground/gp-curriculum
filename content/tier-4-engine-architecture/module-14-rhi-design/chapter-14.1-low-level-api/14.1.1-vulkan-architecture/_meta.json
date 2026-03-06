@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Vulkan Architecture — Devices, Queues & Command Pools",
+  "description": "Covers the complete Vulkan instance and device creation pipeline, queue family selection (graphics/compute/transfer queues), command pool allocation, command buffer recording and submission, and the VkSemaphore/VkFence synchronization primitives required for basic frame rendering. Vulkan's explicit architecture requires the programmer to make every resource state transition explicit — understanding this model is prerequisite to writing any Vulkan code without validation layer errors. Students will write a minimal Vulkan renderer from scratch (without any framework), submit a compute pass followed by a graphics pass with correct semaphore synchronization, and validate zero validation layer errors."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Heightmap Terrain Pipeline — Tessellation & LOD",
+  "description": "Covers the end-to-end heightmap terrain pipeline: heightmap storage and sampling, CDLOD quad-tree patch selection, hardware tessellation-based geometric refinement, terrain material blending using texture-splatting or virtual texturing, and the error metric that drives adaptive LOD to match terrain complexity to rendering budget. Heightmap terrain is the foundation of open-world rendering in DECIMA, Far Cry, Frostbite, and dozens of other engines. Students will implement a CDLOD terrain with 4 LOD levels, hardware tessellation for the highest LOD, and a 4-layer splat material system, targeting 60 FPS on a 4 km² terrain with the GP Engine."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Material Graphs & Layered Materials",
+  "description": "Examines how node-based material graphs (Unreal's Material Editor, DECIMA's material compositor) translate at compile time into HLSL shader code, and how layered materials compose multiple sub-materials using blend operators for complex surfaces like wet stone, snow-covered wood, or blood-stained metal. Material graph compilation into permutations is one of the highest-leverage areas in a material system architecture for shader count reduction. Students will trace a UE5 material graph through its compiled HLSL output, identify which nodes generate shader branching vs. constant-folded code, and implement a two-layer blend material in the GP Engine."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "SIMD Vectorization — AVX2 & AVX-512 for Culling",
+  "description": "Provides advanced SIMD optimization coverage targeting the frustum culling, BVH traversal, and mesh processing operations that benefit most from vectorization: AVX2 8-lane float frustum tests, AVX-512 16-lane intersection testing for BVH nodes, and the scatter/gather patterns that allow random-access array processing within SIMD lanes. AVX-512 provides a 16x throughput multiplier versus scalar code for correctly organized data; applying it to BVH traversal enables millions of ray-scene tests per millisecond on the CPU. Students will port the GP Engine's frustum cull from AVX2 to AVX-512, verify correctness, measure throughput improvement, and identify the memory bandwidth constraint that limits further gains."
+}

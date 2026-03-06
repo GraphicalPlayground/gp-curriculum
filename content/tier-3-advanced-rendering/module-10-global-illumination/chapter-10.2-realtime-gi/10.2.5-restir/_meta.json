@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 5,
+  "title": "ReSTIR — Reservoir-Based Spatiotemporal Resampling",
+  "description": "Explains the ReSTIR algorithm (Bitterli et al., NeurIPS 2020) as a breakthrough resampling technique that uses Weighted Reservoir Sampling to combine temporal and spatial light sample candidates, dramatically reducing variance in real-time path tracing at 1-4 samples per pixel. ReSTIR and its extensions (ReSTIR DI, ReSTIR GI, ReSTIR PT) form the algorithmic core of Cyberpunk 2077's RT Overdrive mode and NVIDIA's RTXDI SDK. Students will implement ReSTIR DI from the paper, validate variance reduction against a conventional 1 SPP estimator, and explain why reservoir resampling is mathematically unbiased in the temporal domain given correct MIS weights."
+}

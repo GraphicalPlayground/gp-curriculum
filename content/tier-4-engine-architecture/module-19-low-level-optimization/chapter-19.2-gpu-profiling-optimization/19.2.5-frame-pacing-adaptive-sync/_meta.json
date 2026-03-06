@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 5,
+  "title": "Frame Pacing, Tearing & Adaptive Sync",
+  "description": "Covers frame pacing as the consistency of frame delivery intervals (the difference between average FPS and perceived smoothness), the mechanisms of V-Sync, G-Sync, and FreeSync for matching display refresh to rendering completion, frame time analysis tools, and the specific frame pacing issues (hitches, frame doubling, input latency) that profiling must diagnose and fix. Poor frame pacing is frequently more perceptible than low average FPS; 60 FPS with 10% frame time variance feels worse than 50 FPS with consistent delivery. Students will measure frame time variance using a custom timestamp ring buffer, identify two pacing hitch sources, implement frame-time-smoothing, and measure the improvement in perceived smoothness via jitter standard deviation."
+}

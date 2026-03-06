@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Matrix Algebra — Multiplication & Transposes",
+  "description": "Teaches matrix multiplication as function composition, the transpose operation, and the critical distinction between row-major storage (HLSL default, DirectXMath) and column-major storage (GLSL default, GLM), which is the source of transposition bugs when porting between APIs. Students will multiply 4x4 matrices by hand, verify results against a GPU shader, and correctly write shader constant buffer layouts that match their CPU-side math library conventions."
+}

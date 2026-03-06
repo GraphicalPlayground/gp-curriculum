@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Powers, Logarithms & Gamma",
+  "description": "Introduces exponents and logarithms in the specific contexts where they appear in graphics: gamma correction, HDR exposure values, mip level selection, and perceptual brightness encoding. The critical distinction between linear light values and perceptually encoded sRGB is established here and referenced throughout the entire PBR and post-processing curriculum. Students will be able to correctly encode and decode color values, implement gamma correction passes, and reason about HDR exposure arithmetic."
+}

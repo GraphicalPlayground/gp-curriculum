@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Forward Rendering — Strengths & Limits",
+  "description": "Explains forward rendering's strengths (MSAA compatibility, transparency support, low memory bandwidth for simple scenes, mobile-friendliness) and its limits (per-light overdraw cost, branching complexity with many lights), providing the context in which each rendering architecture is the correct choice. Forward rendering remains dominant on mobile and in deferred-incompatible scenarios like transparent surfaces in every AAA engine. Students will implement a forward renderer with four dynamic lights, measure per-light overdraw using RenderDoc pixel history, and argue for or against forward rendering for a given hypothetical game scenario."
+}

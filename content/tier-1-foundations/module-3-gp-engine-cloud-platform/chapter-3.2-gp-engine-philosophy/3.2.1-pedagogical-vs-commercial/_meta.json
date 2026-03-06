@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Pedagogical Design vs Commercial Design",
+  "description": "Contrasts the GP Engine's design philosophy (maximally readable, single-threaded where clarity is preserved, annotated with learning intent) against the design philosophy of commercial engines (maximally performant, abstraction-heavy, team-oriented). Understanding this distinction prevents students from copy-pasting GP Engine patterns into production code without understanding their trade-offs. Students will identify three GP Engine design decisions that differ from UE5 equivalents, explain the pedagogical reason for each, and propose the production alternative."
+}

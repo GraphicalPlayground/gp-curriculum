@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Monte Carlo Integration Basics",
+  "description": "Explains Monte Carlo integration as a general numerical integration technique based on random sampling, covering variance, the central limit theorem, expected convergence rate (1/√N), and the sample count required to achieve given quality targets at interactive frame rates. Path tracing's per-pixel variance determines denoiser requirements; understanding convergence rates allows engineers to correctly budget sample counts per render pass. Students will implement a 1D Monte Carlo integrator, measure variance as a function of sample count, and derive the sample count required for a target SNR in a path-traced AO pass."
+}

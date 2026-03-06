@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Particle & VFX System Architecture",
+  "description": "Covers the GPU particle system in ID Tech 7: per-particle simulation using compute shader workgroups, particle sorting by depth for correct blending, GPU emitter spawning driven by simulated events, and the chaos VFX system that integrates physics-based fracture simulation with GPU particle emission. High-density GPU particles are a defining visual element of DOOM Eternal's VFX style; the system architecture enables hundreds of thousands of simultaneous particles at 60 FPS. Students will implement a GPU particle system with compute-based simulation and depth-sorted transparency in the GP Engine, add emitter spawning via a GPU event buffer, and profile the sorting overhead versus a CPU-sorted baseline."
+}

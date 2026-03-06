@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Inverse & Normal Matrix",
+  "description": "Explains why surface normals cannot be transformed using the same matrix as vertex positions and derives the correct normal transformation matrix (the inverse-transpose of the model matrix). This is a classic mistake that produces visually wrong shading when objects are non-uniformly scaled and is present in countless tutorials and even some shipping engines. Students will identify broken normal transforms in shader code, implement the correct approach, and understand the performance trade-off of computing the inverse-transpose per draw call."
+}

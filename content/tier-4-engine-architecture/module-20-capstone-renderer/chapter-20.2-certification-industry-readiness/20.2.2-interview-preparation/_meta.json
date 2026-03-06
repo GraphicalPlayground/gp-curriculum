@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Graphics Engineer Interview Preparation",
+  "description": "Provides a structured preparation curriculum for graphics engineering technical interviews: a problem set of 20 rendering fundamentals questions (with worked answers), a set of five system design problems modeled on real studio interview questions (design a shadow system for an open world, design a material system for a mobile title), and guidance on communicating trade-offs under time pressure. Graphics engineering interviews emphasize depth of understanding over breadth; interviewers probe from surface symptoms to root causes. Students will complete the problem set under timed conditions, participate in a mock interview with a GP mentor, receive written feedback, and produce a personal knowledge gap analysis."
+}

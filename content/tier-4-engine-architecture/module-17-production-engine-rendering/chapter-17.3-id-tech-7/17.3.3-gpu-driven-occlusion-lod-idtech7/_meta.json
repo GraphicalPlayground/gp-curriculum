@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "GPU-Driven Occlusion & LOD in ID Tech 7",
+  "description": "Deconstructs ID Tech 7's GPU-driven pipeline where all occlusion culling, LOD selection, and draw call generation is performed in compute shaders without CPU readback, enabling complex DOOM Eternal levels to be rendered with minimal CPU involvement in scene traversal. GPU-driven rendering in ID Tech 7 is particularly notable for its LOD selection granularity — individual mesh surface groups have independent LOD levels selected per frame. Students will implement the ID Tech 7 GPU-driven LOD selection algorithm, integrate it with the indirect draw argument generation, and measure CPU time reduction versus CPU-side LOD selection."
+}

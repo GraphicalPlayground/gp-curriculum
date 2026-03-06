@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Split-Sum Approximation",
+  "description": "Derives the split-sum approximation (Karis 2013) that separates the specular IBL integral into a prefiltered environment map (roughness-dependent specular radiance) and a BRDF LUT (FG term precomputed over NoV and roughness), enabling accurate GGX specular IBL with two texture lookups. This is the standard IBL implementation in Unreal Engine 4/5, DECIMA, and the GP Engine. Students will implement the prefiltered environment map generation using importance sampling of the GGX VNDF, generate the BRDF integration LUT, and validate the combined IBL result against a reference Monte Carlo render."
+}

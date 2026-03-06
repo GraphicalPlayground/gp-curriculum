@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "How to Deconstruct Any Engine System",
+  "description": "Teaches a repeatable methodology for reverse-engineering an unfamiliar rendering system: starting from the data (find the structs), following the data (trace write and read paths), then understanding the timing (find the per-frame call sites). This skill is directly applicable to reading Unreal Engine 5 source code, studying open-source engines like Filament, and onboarding at a studio with a proprietary codebase. Students will apply the methodology to deconstruct the GP Engine's shadow system in a timed exercise and present a data-flow diagram to a peer reviewer."
+}

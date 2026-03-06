@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Tessellation & Geometry Shaders",
+  "description": "Tessellation and geometry shaders extend the basic pipeline with programmable subdivision and primitive amplification. Understanding their cost model — and specifically why geometry shaders often hurt performance — is as important as understanding their capabilities."
+}

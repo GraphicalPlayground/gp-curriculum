@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Model, View & Projection Matrices",
+  "description": "Deconstructs the MVP pipeline step by step: the model matrix places an object in world space, the view matrix moves the world into camera space, and the projection matrix applies perspective to produce clip coordinates. Understanding each stage independently is essential for effects like shadow mapping (which reuses the same pipeline with a light-space view-projection), reflections, and portal rendering. Students will implement and debug a full MVP transform chain in C++ and verify it matches GPU output."
+}

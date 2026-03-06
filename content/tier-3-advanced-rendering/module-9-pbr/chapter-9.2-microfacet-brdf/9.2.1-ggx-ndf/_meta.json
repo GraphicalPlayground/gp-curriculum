@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "GGX / Trowbridge-Reitz NDF",
+  "description": "Derives the GGX Normal Distribution Function as the industry-standard choice over Beckmann due to its longer specular tail that matches real-world measured surfaces, covers roughness remapping (perceptual roughness squared), and explains the importance of clamping roughness above a minimum value to prevent specular aliasing. GGX is the NDF in UE5, Frostbite, DECIMA, and the GP Engine — understanding its derivation makes every roughness artifact diagnosable. Students will implement GGX NDF, visualize the specular lobe at varying roughness values, and implement specular anti-aliasing via normal variance."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "Unreal Engine 5 — System Architecture",
+  "description": "UE5 is the most studied AAA engine due to its public source code. This chapter goes beyond the public documentation to examine the threading model, multi-API abstractions, and the Nanite/Lumen integration that makes UE5's rendering pipeline architecturally different from all previous Unreal Engine versions."
+}

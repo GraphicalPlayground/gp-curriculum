@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Shader Occupancy, Register Pressure & Warp Efficiency",
+  "description": "Covers the interplay between shader register count, thread group size, and LDS usage in determining GPU occupancy, the performance cliff that occurs when occupancy drops below 25%, and the shader code transformations (register spilling acceptance, loop unrolling adjustment, shared memory reduction) that recover occupancy without changing output quality. Register pressure is the leading cause of unexpectedly poor occupancy in compute-heavy rendering passes. Students will use NSight to identify a register-pressure-induced occupancy cliff in a provided compute shader, apply instruction reordering and intermediate variable elimination to recover occupancy, and measure the throughput improvement."
+}

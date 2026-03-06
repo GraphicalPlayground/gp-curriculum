@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Shader Compilation Pipeline & DXIL/SPIRV",
+  "description": "Explains the full shader compilation pipeline from HLSL/GLSL source through DXC or glslang to DXIL or SPIRV intermediate representation, and the reflection API for extracting resource binding layouts at runtime. The binary shader format carries resource binding metadata that the engine uses to validate descriptor sets and root signatures. Students will invoke DXC from the command line to compile a shader to DXIL, extract its reflection data, and automate the compilation in a CMake build step that regenerates shaders when source changes are detected."
+}

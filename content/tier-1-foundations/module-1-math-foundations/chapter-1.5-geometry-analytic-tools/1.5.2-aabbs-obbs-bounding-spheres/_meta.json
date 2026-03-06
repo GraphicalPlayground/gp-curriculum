@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "AABBs, OBBs & Bounding Spheres",
+  "description": "Introduces axis-aligned and oriented bounding boxes and spheres as the spatial bounding volumes used in every scene culling system, physics broad phase, and BVH node. The trade-off between tightness of fit and intersection test cost determines which volume type is optimal for a given use case. Students will implement AABB-ray intersection (the slab method), AABB-AABB overlap test, and bounding sphere construction from a point cloud."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Input Assembly & Vertex Buffers",
+  "description": "Explains how vertex and index buffers are configured in the Input Assembler stage, covering vertex layout descriptors, index buffer formats, primitive topology types, and instancing via per-instance vertex buffers. The input assembly stage is the entry point of all geometry into the GPU pipeline and its correct configuration is required before any vertex shader can execute. Students will configure a vertex layout descriptor for a multi-stream mesh with positions, normals, and UVs, implement hardware instancing for a forest of trees, and diagnose an incorrectly bound index buffer using RenderDoc."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Shadow Denoising & Temporal Stability",
+  "description": "Covers the specific denoising requirements for ray-traced shadow signals: geometry-aware bilateral filtering to preserve hard shadow boundaries, temporal accumulation with sample-valid reprojection to reduce noise over time, and the NRD shadow denoiser configuration that handles the signal characteristics of ray-traced penumbra noise. Shadow denoising failure modes (ghosting, stability loss during fast camera moves) are among the most noticeable artifacts in shipped ray-traced titles. Students will integrate the NRD shadow denoiser into the GP Engine RT shadow pipeline, tune stability parameters, and conduct a structured visual QA of ghosting and temporal stability artifacts."
+}

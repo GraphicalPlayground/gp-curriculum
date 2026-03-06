@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Mipmapping & Anisotropic Filtering",
+  "description": "Explains mip map generation, the hardware LOD calculation from texture gradients (ddx/ddy), trilinear filtering, and anisotropic filtering as the solution to mip aliasing on surfaces viewed at grazing angles. Incorrect mip configuration is one of the most common causes of shimmering artifacts in real-time rendering; understanding the hardware's LOD computation is essential for diagnosing and fixing them. Students will implement manual mip LOD bias to diagnose a shimmer artifact, configure anisotropic filtering in a sampler state, and measure the bandwidth cost difference between bilinear, trilinear, and 16x anisotropic filtering."
+}

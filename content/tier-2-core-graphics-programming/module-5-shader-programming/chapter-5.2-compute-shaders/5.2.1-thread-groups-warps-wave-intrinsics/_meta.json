@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Thread Groups, Warps & Wave Intrinsics",
+  "description": "Explains the GPU compute execution model from thread to thread group to warp/wave, covering occupancy, thread divergence, register spilling, and the wave-level intrinsics (WaveActiveBallot, WaveReadLaneFirst) that unlock warp-cooperative algorithms unavailable in conventional shader code. Achieving high GPU occupancy is the fundamental lever for compute performance; understanding what prevents it is a prerequisite for all optimization work in Tier 4. Students will implement a parallel prefix sum using wave intrinsics, measure occupancy before and after optimization, and explain why 64-thread groups are preferable to 128-thread groups on certain hardware."
+}

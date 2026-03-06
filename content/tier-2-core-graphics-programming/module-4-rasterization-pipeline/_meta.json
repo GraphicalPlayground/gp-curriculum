@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../schemas/curriculum-module.schema.json",
+  "number": 4,
+  "title": "The Rasterization Pipeline",
+  "description": "This module provides a deep, implementation-level understanding of the fixed-function and programmable stages that make up the modern rasterization graphics pipeline. It covers the journey of a triangle from CPU memory to framebuffer pixel, including the hardware tessellation and geometry shader stages that extend the basic pipeline, and the depth and visibility techniques that govern which pixels survive to shading. References are drawn from the Vulkan 1.3 and DirectX 12 specifications. Students completing this module will be capable of configuring and debugging every pipeline stage in a modern graphics API."
+}

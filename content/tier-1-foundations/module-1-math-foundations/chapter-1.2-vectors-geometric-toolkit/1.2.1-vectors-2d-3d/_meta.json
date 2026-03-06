@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Vectors in 2D and 3D — Representation & Meaning",
+  "description": "Distinguishes between points (positions in space) and vectors (displacements or directions), a distinction that has real consequences in homogeneous coordinates and transformation math. Magnitude, normalization, and component arithmetic are covered with hardware-level intuition about how GPUs process packed float4 registers. Students will correctly use vec3/vec4 in shaders, choose between position and direction semantics in engine APIs, and normalize vectors without introducing precision errors."
+}

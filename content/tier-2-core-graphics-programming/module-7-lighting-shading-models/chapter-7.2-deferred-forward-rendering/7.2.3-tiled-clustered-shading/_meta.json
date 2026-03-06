@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Tiled & Clustered Shading",
+  "description": "Introduces tiled deferred shading (binning lights into screen-space tiles) and its extension to clustered shading (frustum-aligned 3D cluster volumes for accurate volumetric light assignment), the technique used in DOOM (2016/Eternal) and Frostbite to support thousands of dynamic lights without deferred bandwidth overhead. Clustered shading is now the industry standard for high dynamic light count, replacing tiled deferred in most AAA engines. Students will implement 16x16 tile-based light binning, extend it to a 3D froxel cluster grid, profile the light evaluation overhead as dynamic light count scales from 100 to 10,000."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "GPU Hardware Deep Dive",
+  "description": "This chapter treats the GPU as a physical system to be understood, not a black box to be programmed around. Understanding the hardware execution model changes how you write shaders, lay out data, and reason about occupancy and latency hiding."
+}

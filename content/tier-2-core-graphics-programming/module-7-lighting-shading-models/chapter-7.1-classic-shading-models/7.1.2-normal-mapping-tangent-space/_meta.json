@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Normal Mapping & Tangent Space",
+  "description": "Explains the tangent-bitangent-normal (TBN) matrix construction from mesh data, the encoding of normals in tangent space for normal maps, and the shader-side reconstruction of world-space normals for lighting evaluation, including the common failure modes from mis-generated tangents. Normal mapping is in every production game and the TBN matrix construction is one of the most error-prone operations in a mesh pipeline. Students will implement TBN construction from mesh vertex data, apply a normal map in a pixel shader with correct space transformations, and diagnose a lighting artifact caused by a sign-flipped bitangent."
+}

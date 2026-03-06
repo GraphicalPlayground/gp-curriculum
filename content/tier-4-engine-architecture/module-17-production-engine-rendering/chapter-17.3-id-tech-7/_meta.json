@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 3,
+  "title": "ID Tech 7 (id Software — DOOM Eternal)",
+  "description": "DOOM Eternal represents one of the most impressive achievements in rendering performance optimization: a visually stunning AAA game running at 60 FPS on last-generation consoles through aggressive GPU-driven indirect rendering and a highly optimized forward+ pipeline."
+}

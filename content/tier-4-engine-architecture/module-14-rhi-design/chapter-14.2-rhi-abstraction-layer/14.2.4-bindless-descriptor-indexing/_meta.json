@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Dynamic Resource Binding — Bindless & Descriptor Indexing",
+  "description": "Covers the implementation of fully bindless resource access using Vulkan descriptor indexing (VK_EXT_descriptor_indexing) and DX12 SM6.6 dynamic resource indexing, where a single persistent descriptor set grants shader access to all textures, buffers, and samplers via runtime-computed indices. Bindless resource binding eliminates the per-draw CPU overhead of descriptor set updates and is the resource binding model in the GP Engine, ID Tech 7, and most modern AAA engines. Students will convert a multi-material renderer from per-material descriptor updates to a global bindless heap, measure CPU time savings during scene traversal, and implement type-safe resource handle wrappers that prevent incorrect index aliasing."
+}

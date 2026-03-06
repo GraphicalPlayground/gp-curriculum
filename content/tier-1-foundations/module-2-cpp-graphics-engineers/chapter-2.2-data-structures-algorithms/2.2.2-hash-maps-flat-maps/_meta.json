@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Hash Maps, Flat Maps & Lookup Tables",
+  "description": "Covers open-addressing hash maps, robin-hood hashing, and flat sorted maps as the data structures behind shader caches, PSO caches, texture registries, and material parameter tables in production engines. Hash map collision rates and load factors directly impact frame time when thousands of shader permutation lookups occur during scene traversal. Students will implement a fixed-size open-addressing hash map for shader bytecode caching, profile its lookup performance against std::unordered_map, and implement a PSO fingerprinting scheme."
+}

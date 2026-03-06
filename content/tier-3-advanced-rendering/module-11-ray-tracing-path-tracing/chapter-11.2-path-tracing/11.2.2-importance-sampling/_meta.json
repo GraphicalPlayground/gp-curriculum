@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Importance Sampling — BRDF & Light",
+  "description": "Covers importance sampling as the variance reduction technique that concentrates samples in directions of high integrand value, deriving cosine-weighted hemisphere sampling for diffuse surfaces, GGX VNDF sampling for specular, and Multiple Importance Sampling (MIS) to combine BRDF and light sampling strategies without bias. MIS is the technique that makes path tracing practical — without it, specular surfaces near area lights produce extreme variance. Students will implement GGX VNDF sampling from the paper (Heitz 2018), implement MIS using the balance heuristic, and measure the variance reduction versus uniform hemisphere sampling on a provided scene."
+}

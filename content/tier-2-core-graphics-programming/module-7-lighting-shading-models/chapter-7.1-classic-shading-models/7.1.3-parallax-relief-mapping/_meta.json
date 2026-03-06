@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Parallax & Relief Mapping",
+  "description": "Covers parallax mapping (offset UV by heightmap scaled by view angle), steep parallax mapping, and relief mapping (binary search along the view ray for precise intersection with the heightfield surface), achieving depth illusion on flat polygons without additional geometry. Parallax techniques are still used in AAA titles for surfaces where displacement tessellation is too expensive, particularly in first-person close-up surfaces. Students will implement all three parallax techniques, measure the per-pixel ray-march cost of relief mapping versus steep parallax, and identify the self-shadowing artifact that motivates combining relief mapping with a shadow pass."
+}

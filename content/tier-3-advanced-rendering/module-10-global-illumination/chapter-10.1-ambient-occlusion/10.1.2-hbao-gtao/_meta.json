@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "HBAO+ & GTAO",
+  "description": "Covers Horizon-Based AO (HBAO+) as an improvement over SSAO that traces horizons in screen space for physically grounded occlusion, and Ground-Truth AO (GTAO) which approximates the true AO integral from the bent normal and visibility horizon. GTAO is used in Unreal Engine 5 as the default screen-space AO solution and produces significantly more accurate contact shadows than classic SSAO. Students will implement GTAO, extract the bent normal output for use in indirect diffuse lighting, measure the quality improvement over SSAO on a provided scene, and profile the performance cost difference."
+}

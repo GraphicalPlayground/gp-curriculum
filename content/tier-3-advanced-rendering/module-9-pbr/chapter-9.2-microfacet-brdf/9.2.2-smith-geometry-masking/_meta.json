@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Smith Geometry Masking-Shadowing",
+  "description": "Covers the Smith G2 geometry term as the microfacet model's mechanism for accounting for microfacet self-shadowing and masking, derives both the uncorrelated and height-correlated variants, and explains why the height-correlated form (used in UE4/5 and Frostbite) is physically superior despite the additional computation cost. Incorrect geometry term implementations produce energy loss at grazing angles that makes rough surfaces incorrectly darkened. Students will implement both G2 variants, quantitatively measure the energy loss difference between them using white furnace test renders, and justify the use of the height-correlated form."
+}

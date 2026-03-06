@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 3,
+  "title": "Shader Optimization & Profiling",
+  "description": "Shader performance is not intuitive and cannot be guessed — it must be measured. This chapter teaches the analytical methodology for diagnosing shader bottlenecks and the specific optimization techniques most effective on modern RDNA and Ada Lovelace GPU architectures."
+}

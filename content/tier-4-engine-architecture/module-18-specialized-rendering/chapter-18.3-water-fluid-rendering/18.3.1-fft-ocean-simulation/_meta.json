@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "FFT Ocean Surface Simulation",
+  "description": "Implements Tessendorf's ocean simulation: the Phillips spectrum in the frequency domain, the inverse FFT using GPU compute to generate displacement textures, cascade blending of multiple FFT resolutions for detail across scales, and the GPU-updated normal map and foam mask derived from the displacement gradient. FFT ocean is the standard technique for realistic ocean surfaces in games targeting visual fidelity (AC Odyssey, Sea of Thieves, Far Cry 5 water) and provides physically correct wave dispersion. Students will implement a GPU FFT ocean with 512x512 displacement at 60 Hz, add foam generation from Jacobian determinant, and integrate the displacement into the terrain pipeline for seamless land-water transitions."
+}

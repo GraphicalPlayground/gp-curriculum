@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "UV Unwrapping & Seam Management",
+  "description": "Covers UV coordinate spaces, the trade-offs between different UV unwrapping strategies (planar, cylindrical, LSCM, ABF), lightmap UV generation requirements (no overlaps, uniform texel density, adequate seam padding), and the relationship between texel density and visual quality at a given resolution. Lightmap UV quality is directly responsible for light bleed and shadow terminator artifacts in baked lighting. Students will analyze a provided mesh's UV layout for lightmap suitability, identify texel density inconsistencies, and correct a UV island with a seam-crossing artifact."
+}

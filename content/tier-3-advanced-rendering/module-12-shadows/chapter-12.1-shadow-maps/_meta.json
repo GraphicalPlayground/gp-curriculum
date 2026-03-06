@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "Shadow Maps",
+  "description": "Shadow mapping remains the dominant real-time shadow technique despite being 40+ years old, because hardware depth rendering is essentially free and the quality is sufficient for most shadow scenarios. This chapter covers every variant used in production and the specific failure modes engineers encounter daily."
+}

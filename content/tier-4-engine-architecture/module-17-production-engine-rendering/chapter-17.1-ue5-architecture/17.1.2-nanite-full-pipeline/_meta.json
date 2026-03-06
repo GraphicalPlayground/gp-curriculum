@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Nanite Virtualized Geometry — Full Pipeline",
+  "description": "Provides a frame-by-frame technical breakdown of the complete Nanite rendering pipeline: cluster LOD selection using the cluster DAG error hierarchy, the persistent raster compute pass dispatching hardware and software rasterizer paths based on cluster screen size, visibility buffer output, and the deferred material evaluation that samples textures after rasterization rather than during it. This lesson synthesizes Modules 16.3.3 and 7.2.4 into a complete system understanding. Students will profile a Nanite scene using Unreal Insights and RenderDoc, measure the ratio of hardware to software rasterized triangles, and explain why the software rasterizer is more efficient for sub-pixel triangles."
+}

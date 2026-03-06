@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "HDR Capture, Cubemap Filtering & HDRI",
+  "description": "Covers HDR panoramic capture workflows, equirectangular-to-cubemap conversion, specular cubemap filtering pipelines (importance sampling, pre-filtered radiance), and the reflection capture system that refreshes local reflection probes at runtime in Unreal and DECIMA. Local reflection captures are essential for interior environments where a distant skybox cannot provide accurate specular reflections. Students will implement a full offline cubemap filtering pipeline, integrate local reflection captures into the GP Engine's IBL system, and handle blending between overlapping capture volumes."
+}

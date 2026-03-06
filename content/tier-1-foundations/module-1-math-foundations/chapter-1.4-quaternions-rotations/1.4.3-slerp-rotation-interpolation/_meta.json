@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "SLERP & Rotation Interpolation",
+  "description": "Covers Spherical Linear Interpolation (SLERP) as the geometrically correct method for blending between two orientations, along with NLERP as the performance approximation used when frame budgets are tight. Smooth rotation interpolation is critical for character animation blending, camera transitions, ragdoll settling, and procedural IK rigs. Students will implement both SLERP and NLERP, visualize the difference between them on long arcs, and understand why animation systems cache quaternions rather than recomputing them each frame."
+}

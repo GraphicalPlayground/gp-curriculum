@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Types, Memory Model & Stack vs Heap",
+  "description": "Explains how C++ types map to hardware memory, the distinction between stack allocation (deterministic, fast, scope-bound) and heap allocation (flexible, slow, ownership-tracked), and the alignment requirements that matter when uploading data to GPU buffers. Every GPU buffer upload, constant buffer packing, and vertex struct definition depends on understanding memory layout. Students will predict the size and layout of packed structs using alignas, implement a custom stack allocator, and explain why std::vector is inappropriate for per-frame GPU upload buffers."
+}

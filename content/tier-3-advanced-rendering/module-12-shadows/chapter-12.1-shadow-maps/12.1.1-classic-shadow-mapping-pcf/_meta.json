@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Classic Shadow Mapping & PCF",
+  "description": "Implements classic shadow mapping (render scene from light, compare depth in shadow pass) with Percentage-Closer Filtering (PCF) for soft shadow edges, covering the shadow bias management (constant, slope-scaled, receiver-plane normal offset) that prevents Peter-Panning and shadow acne. Shadow acne and Peter-Panning are among the most common shadow artifacts in production and each bias type has specific failure scenarios. Students will implement shadow mapping with three bias strategies, identify which bias type is appropriate for a low-polygon terrain versus a high-frequency character, and implement PCF with a configurable kernel radius."
+}

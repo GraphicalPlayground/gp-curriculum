@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 5,
+  "title": "Geometry & Analytic Tools",
+  "description": "This chapter provides the analytic geometry toolkit used directly in ray casting, collision detection, culling, and interpolation — moving from abstract math into directly executable algorithms. Barycentric coordinates in particular form the bridge between geometry and the rasterization hardware covered in Tier 2."
+}

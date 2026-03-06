@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Pipeline State Object (PSO) Caching & Warming",
+  "description": "Explains PSO compilation stutter (the cause of mid-game hitches in poorly optimized titles), the mechanisms for PSO caching (DX12 PSO library, Vulkan pipeline cache), background PSO compilation, and the shader pre-compilation strategies used by UE5 and other engines to eliminate first-use stutter. PSO compilation hitches are one of the most common player-facing performance complaints in PC games and a primary QA focus for any modern rendering team. Students will implement a PSO cache with file-backed serialization, measure the compilation time savings on a provided shader set, and implement background compilation with priority queue ordering."
+}

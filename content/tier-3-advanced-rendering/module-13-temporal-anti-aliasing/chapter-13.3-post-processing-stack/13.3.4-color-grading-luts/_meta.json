@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Color Grading Pipeline & LUTs",
+  "description": "Covers the end-to-end HDR color grading pipeline: ACES scene-linear working space, creative grade via 3D LUT (Log3G10 input), display transform (ACES RRT + ODT for SRGB/HDR10 output), and the workflow for generating, applying, and previewing LUTs that match creative intent. Color grading is the tool through which visual identity is established in games; technically incorrect color pipelines cause discrepancies between editor and in-game appearance that waste artist time. Students will implement a 3D LUT color grading pass, integrate the ACES display transform, validate that white-point-neutral and black-point-neutral test images produce correct output on both SDR and HDR display paths."
+}

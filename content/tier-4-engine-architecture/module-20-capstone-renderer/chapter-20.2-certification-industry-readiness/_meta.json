@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Certification & Industry Readiness",
+  "description": "The GP Certified Graphics Engineer credential is evaluated against the same standards used in senior rendering engineer hiring at AAA studios: code quality, algorithmic correctness, performance documentation, and the ability to explain architectural trade-offs in a technical interview setting."
+}

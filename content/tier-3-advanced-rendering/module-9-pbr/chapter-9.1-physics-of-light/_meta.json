@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "The Physics of Light",
+  "description": "PBR is grounded in physical reality, not empirical approximations. This chapter establishes the radiometric vocabulary and the rendering equation that all PBR models attempt to approximate — a solid foundation that makes every subsequent BRDF derivation comprehensible rather than arbitrary."
+}

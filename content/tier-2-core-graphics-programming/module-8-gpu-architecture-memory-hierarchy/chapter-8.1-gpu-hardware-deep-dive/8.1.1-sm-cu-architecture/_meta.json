@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "SM / CU Architecture: ALU, Register Files, LDS",
+  "description": "Examines the internal structure of an NVIDIA Streaming Multiprocessor and AMD Compute Unit: the floating-point and integer ALU pipelines, the SIMT register file, Local Data Share memory, and the SFU (Special Function Units) for transcendentals. Understanding the physical resource constraints of a compute unit allows engineers to predict occupancy, register spilling behavior, and the cost of mixed FP32/FP16 shader code. Students will use NSight to inspect register allocation for a provided shader, predict its theoretical occupancy, and modify the shader to reduce register pressure and verify improved occupancy."
+}

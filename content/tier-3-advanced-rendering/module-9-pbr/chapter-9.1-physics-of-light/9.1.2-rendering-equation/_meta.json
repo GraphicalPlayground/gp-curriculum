@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "The Rendering Equation",
+  "description": "Introduces Kajiya's rendering equation and the different strategies real-time engines use to approximate its integral: area-light closed-form solutions, importance-sampled IBL, and the linearizing assumptions (constant radiance per light, no inter-reflections) that make real-time PBR tractable. The rendering equation is the unifying framework that makes path tracing (Module 11), baked lighting (Module 10), and analytic area lights (Module 9) comparable and composable systems. Students will derive the single-scattering rendering equation from first principles, implement a simple Monte Carlo solver, and compare its output to the deferred PBR approximation to quantify the error."
+}

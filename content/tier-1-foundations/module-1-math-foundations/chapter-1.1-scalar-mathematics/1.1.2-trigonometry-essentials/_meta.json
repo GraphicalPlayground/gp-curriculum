@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Trigonometry Essentials",
+  "description": "Teaches sine, cosine, tangent, and their inverse functions through the unit circle model, with immediate application to rotation, oscillation, and angle reconstruction from direction vectors. Trigonometry underpins every rotation matrix, every spotlight cone, and every wave function used in procedural animation. Students will be able to derive angle between vectors, compute light cone falloff, and implement sinusoidal animation curves."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Radiometry — Radiance, Irradiance, BRDF",
+  "description": "Defines the radiometric quantities used in physically based rendering: radiant flux, irradiance, radiance, and the Bidirectional Reflectance Distribution Function (BRDF) as the ratio of outgoing radiance to incoming irradiance. These definitions are not merely theoretical — they determine what the integrals in a deferred lighting loop actually compute and what units light sources must be specified in for physically correct results. Students will correctly specify a point light in physically based units (candelas), compute the irradiance at a surface, and verify their shader produces physically correct falloff versus a ground-truth path tracer."
+}

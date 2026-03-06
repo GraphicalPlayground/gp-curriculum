@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Primitive Assembly, Clipping & Culling",
+  "description": "Explains the fixed-function primitive assembly stage, Sutherland-Hodgman polygon clipping against the six view frustum planes, and back-face culling by winding order — all performed in hardware before the rasterizer. Understanding clipping prevents confusion about why geometry partially outside the frustum is not simply discarded and why stencil shadow volumes require double-sided rendering. Students will configure rasterizer state (cull mode, front face winding) in Vulkan/DX12, implement a frustum visualization overlay, and explain why clip space clipping occurs before perspective divide."
+}

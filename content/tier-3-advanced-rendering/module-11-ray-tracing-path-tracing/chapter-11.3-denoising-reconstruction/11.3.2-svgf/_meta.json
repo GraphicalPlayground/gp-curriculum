@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "Spatiotemporal Variance-Guided Filtering (SVGF)",
+  "description": "Implements the SVGF denoiser (Schied et al., SIGGRAPH 2017) which uses a variance estimate computed from temporal history to modulate the spatial filter kernel width, applying wider spatial filtering in high-variance (noisy) regions and preserving sharp edges using geometry-aware edge-stopping functions. SVGF is the foundational academic denoiser that preceded NRD and OIDN and is the algorithm that proved real-time path tracing denoising viable. Students will implement the full SVGF pipeline (variance estimate, A-trous wavelet filter, moment accumulation), validate it on a 1-SPP path trace, and measure filter latency using GPU timestamps."
+}

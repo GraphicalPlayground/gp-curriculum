@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Substrate — UE5 Material System",
+  "description": "Explains Substrate (UE5.2+) as the replacement for the legacy shading model system: a compiler-driven layered material architecture using physically based operator trees (over, add, mix) that compose material slabs (Lambertian, GGX specular, thin-film, hair) into arbitrary surface descriptions while maintaining G-buffer compatibility and supporting Nanite's deferred material evaluation path. Substrate represents the current state of the art in game engine material systems and its design decisions reveal the trade-offs between material expressiveness and shading performance. Students will author a three-layer Substrate material (metal, rust, moisture), inspect the generated HLSL, and explain why Substrate requires a different G-buffer layout than the legacy shading model."
+}

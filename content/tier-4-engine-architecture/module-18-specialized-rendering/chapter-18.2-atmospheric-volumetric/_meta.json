@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Atmospheric & Volumetric Rendering",
+  "description": "Atmospheric scattering and volumetric effects are responsible for a game's sky and aerial perspective — two of the most immediate visual quality indicators. This chapter covers the physically based sky model used in DECIMA and the volumetric cloud and fog techniques used in Horizon and Microsoft Flight Simulator."
+}

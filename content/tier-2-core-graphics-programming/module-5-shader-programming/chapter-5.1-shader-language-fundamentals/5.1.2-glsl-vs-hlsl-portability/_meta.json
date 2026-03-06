@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 2,
+  "title": "GLSL vs HLSL — Portability Patterns",
+  "description": "Systematically maps HLSL concepts to GLSL equivalents (cbuffer → UBO, SV_Position → gl_Position, groupshared → shared), and presents the macro-based portability layer used by engines like id Tech 7 and Frostbite to compile a single shader source to SPIRV and DXIL. Writing portable shaders is a daily requirement for engineers targeting PC, console, and mobile simultaneously. Students will port a provided HLSL PBR shader to GLSL, implement a portability header that abstracts the differences, and verify identical output using RenderDoc frame captures on both backends."
+}

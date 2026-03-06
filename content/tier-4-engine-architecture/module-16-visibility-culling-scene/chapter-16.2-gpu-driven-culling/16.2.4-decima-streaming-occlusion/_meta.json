@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "DECIMA's Streaming Occlusion System",
+  "description": "Deconstructs DECIMA's (Guerrilla Games) GPU-driven streaming occlusion system used in Horizon Zero Dawn and Forbidden West: how the engine maintains a persistent scene BVH on the GPU, uses the previous frame's depth buffer to cull entire streaming cells before deciding what to load, and feeds culling results back to the streaming manager as texture residency hints. This case study demonstrates how GPU culling extends beyond rendering into the streaming and memory management systems. Students will diagram DECIMA's occlusion-driven streaming pipeline, identify the feedback loop between GPU culling and the CPU streaming manager, and propose equivalent streaming integration for the GP Engine."
+}

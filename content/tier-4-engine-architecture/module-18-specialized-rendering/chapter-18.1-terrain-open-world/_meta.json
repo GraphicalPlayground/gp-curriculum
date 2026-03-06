@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 1,
+  "title": "Terrain & Open World Rendering",
+  "description": "Terrain rendering is the domain that most differentiates open-world game engines from level-based engines. This chapter covers the complete terrain pipeline from heightmap generation through streaming, with special attention to the GPU-driven LOD systems that make planetary-scale terrain viable."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "UV Mapping & Atlasing",
+  "description": "UV coordinates are the bridge between 3D geometry and 2D texture data, and their layout has direct performance implications. This chapter covers both the mesh authoring considerations and the runtime techniques for bindless texture access that are central to modern draw-call-reduction strategies."
+}

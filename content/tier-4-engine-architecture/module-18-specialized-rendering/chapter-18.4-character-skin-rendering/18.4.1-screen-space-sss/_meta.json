@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 1,
+  "title": "Screen-Space Subsurface Scattering",
+  "description": "Implements Jimenez et al.'s separable SSS filter: a two-pass screen-space blur using a kernel fitted to the sum of Gaussians diffusion profile of human skin, applied only to pixels flagged as skin by a stencil mask, producing the translucent glow of subsurface light transport without volumetric ray tracing. Screen-space SSS is used in virtually every AAA character renderer and provides the distinguishing visual quality that makes digital humans believable at close range. Students will implement the separable SSS filter with the Jimenez kernel, apply it via stencil masking in the deferred pipeline, measure its bandwidth cost, and tune per-material scattering radii for skin, lip, and ear regions."
+}

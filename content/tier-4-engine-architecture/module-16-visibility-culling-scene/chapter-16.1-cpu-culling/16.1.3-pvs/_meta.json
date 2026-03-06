@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "PVS — Potentially Visible Sets",
+  "description": "Covers offline-precomputed Potentially Visible Sets: sampling the scene at probe positions, ray-casting to determine visibility between probes and cell sets, encoding the resulting visibility in a compact bitset per cell, and querying the PVS at runtime to eliminate entire zones from consideration before frustum culling. PVS provides the best possible CPU culling quality for static scenes and is used in corridor-heavy titles like Doom Eternal where portal geometry is impractical. Students will implement PVS precomputation for a provided static scene, integrate PVS query into the visibility pipeline, and measure the combined PVS + frustum cull object rejection rate."
+}

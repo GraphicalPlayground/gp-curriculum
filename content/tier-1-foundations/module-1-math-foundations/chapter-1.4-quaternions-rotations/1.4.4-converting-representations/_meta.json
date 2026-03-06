@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Converting Between Representations",
+  "description": "Provides a complete conversion reference between rotation matrices, quaternions, axis-angle, and Euler angles — the interop operations required when moving data between physics engines, rendering APIs, art tools, and animation runtimes. Each conversion has numeric precision concerns and singularity cases that must be handled in production code. Students will implement all six pairwise conversions and handle the degenerate cases (identity rotation, 180-degree rotation) that cause NaN in naive implementations."
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "Lumen — Unreal Engine 5 GI Deep Dive",
+  "description": "Provides a complete technical deconstruction of Lumen's multi-layer GI architecture: the surface cache (signed-distance field acceleration structure for software ray tracing), the radiance cache (sparse screen-space probe grid), screen-space ray marching, and the hardware ray tracing fallback for high-quality reflections. Lumen is the most sophisticated real-time GI system deployed at commercial scale and its design decisions reveal the state of the art in dynamic indirect lighting. Students will trace a single indirect diffuse sample through Lumen's multi-layer stack using UE5 visualization modes, identify the transition point between software and hardware RT, and propose where a similar architecture could be simplified for a specific game scenario."
+}

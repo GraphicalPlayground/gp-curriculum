@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "DECIMA Engine (Guerrilla Games)",
+  "description": "The DECIMA engine powers Horizon Zero Dawn, Horizon Forbidden West, Death Stranding, and Killzone Shadow Fall, and represents Guerrilla Games' 15 years of deferred rendering refinement for open-world environments with highly varied terrain and atmospheric conditions."
+}

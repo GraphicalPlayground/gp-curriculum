@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../schemas/curriculum-chapter.schema.json",
+  "number": 2,
+  "title": "Temporal Reprojection Systems",
+  "description": "Motion vectors and temporal reprojection are infrastructure shared by TAA, denoising, super resolution, and frame generation — understanding their generation and failure modes is prerequisite to implementing any of these systems correctly."
+}

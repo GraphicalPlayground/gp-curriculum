@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 4,
+  "title": "Tone Mapping — ACES, Hable, Reinhard",
+  "description": "Explains the role of the tone mapping operator in the HDR pipeline (mapping scene-linear light values to display output), covers the Reinhard, Hable/Filmic, and ACES RRT+ODT operators with their response curves, and explains the ACES workflow used in UE5 and film VFX production. Choosing the wrong tone mapper produces characteristic artifacts (washed-out highlights with Reinhard, color shifting with Hable) that significantly affect artistic intent. Students will implement all three tone mapping operators, produce comparison renders, and calibrate the ACES operator for a specific display device using its ST 2084 EOTF curve."
+}

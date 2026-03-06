@@ -1,1 +1,6 @@
-{}
+{
+  "$schema": "../../../../../schemas/curriculum-lesson.schema.json",
+  "number": 3,
+  "title": "VSM, ESM & EVSM",
+  "description": "Explains statistical shadow maps (VSM, ESM, EVSM) as alternative shadow map representations that can be pre-filtered like regular textures to produce soft shadows without expensive per-pixel PCF, at the cost of light bleeding artifacts in certain configurations. Exponential VSM (EVSM) is used in several production engines including earlier versions of ID Tech as a high-quality soft shadow technique without ray tracing cost. Students will implement EVSM, measure the light bleeding intensity versus scene configuration, apply the exponent tuning that mitigates it, and compare the performance cost and quality to a large-radius PCF implementation."
+}
