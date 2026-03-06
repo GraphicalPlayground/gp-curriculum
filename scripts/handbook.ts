@@ -16,7 +16,11 @@ type TimeUnits = 'seconds' | 'minutes' | 'hours' | 'days' | 'weeks' | 'months' |
 interface Lesson {
   /** Private Section */
   _path: string;
-  _meta: string;
+  _meta: {
+    number: number;
+    title: string;
+    description: string;
+  };
 }
 
 /**
@@ -25,7 +29,11 @@ interface Lesson {
 interface Chapter {
   /** Private Section */
   _path: string;
-  _meta: string;
+  _meta: {
+    number: number;
+    title: string;
+    description: string;
+  };
 
   /** Children */
   lessons: Lesson[];
@@ -37,7 +45,11 @@ interface Chapter {
 interface Module {
   /** Private Section */
   _path: string;
-  _meta: string;
+  _meta: {
+    number: number;
+    title: string;
+    description: string;
+  };
 
   /** Children */
   chapters: Chapter[];
